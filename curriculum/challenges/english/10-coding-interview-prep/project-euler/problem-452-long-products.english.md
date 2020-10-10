@@ -1,7 +1,6 @@
 ---
 id: 5900f5311000cf542c510043
 challengeType: 5
-isHidden: false
 title: 'Problem 452: Long Products'
 forumTopicId: 302125
 ---
@@ -38,7 +37,7 @@ tests:
 
 ```js
 function euler452() {
-  // Good luck!
+
   return true;
 }
 

@@ -1,7 +1,6 @@
 ---
 id: 5900f3841000cf542c50fe97
 challengeType: 5
-isHidden: false
 title: 'Problem 24: Lexicographic permutations'
 forumTopicId: 301885
 ---
@@ -49,7 +48,7 @@ tests:
 
 ```js
 function lexicographicPermutations(n) {
-  // Good luck!
+
   return n;
 }
 

@@ -2,7 +2,6 @@
 id: 5a23c84252665b21eecc7edf
 title: Least common multiple
 challengeType: 5
-isHidden: false
 forumTopicId: 302301
 ---
 
@@ -58,7 +57,7 @@ tests:
 
 ```js
 function LCM(A) {
-  // Good luck!
+
 }
 ```
 

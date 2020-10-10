@@ -2,7 +2,6 @@
 title: Topological sort
 id: 594fa2746886f41f7d8bf225
 challengeType: 5
-isHidden: false
 forumTopicId: 302340
 ---
 
@@ -80,7 +79,7 @@ tests:
 
 ```js
 function topologicalSort(libs) {
-  // Good luck!
+
   return true;
 }
 ```

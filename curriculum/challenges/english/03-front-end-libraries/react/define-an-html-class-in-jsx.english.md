@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d4036160
 title: Define an HTML Class in JSX
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301393
 ---
@@ -53,7 +52,7 @@ const JSX = (
 ### After Test
 <div id='jsx-teardown'>
 
-```js
+```jsx
 ReactDOM.render(JSX, document.getElementById('root'))
 ```
 
@@ -65,7 +64,7 @@ ReactDOM.render(JSX, document.getElementById('root'))
 <section id='solution'>
 
 
-```js
+```jsx
 const JSX = (
 <div className = 'myDiv'>
   <h1>Add a class to this div</h1>

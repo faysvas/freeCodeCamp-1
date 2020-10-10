@@ -1,7 +1,6 @@
 ---
 id: 5900f44b1000cf542c50ff5d
 challengeType: 5
-isHidden: false
 title: 'Problem 222: Sphere Packing'
 forumTopicId: 301865
 ---
@@ -37,7 +36,7 @@ tests:
 
 ```js
 function euler222() {
-  // Good luck!
+
   return true;
 }
 

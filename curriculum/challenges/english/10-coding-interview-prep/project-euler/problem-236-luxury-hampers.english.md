@@ -1,7 +1,6 @@
 ---
 id: 5900f4591000cf542c50ff6b
 challengeType: 5
-isHidden: false
 title: 'Problem 236: Luxury Hampers'
 forumTopicId: 301881
 ---
@@ -47,7 +46,7 @@ tests:
 
 ```js
 function euler236() {
-  // Good luck!
+
   return true;
 }
 

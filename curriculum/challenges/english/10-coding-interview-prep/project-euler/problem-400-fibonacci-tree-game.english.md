@@ -1,7 +1,6 @@
 ---
 id: 5900f4fe1000cf542c510010
 challengeType: 5
-isHidden: false
 title: 'Problem 400: Fibonacci tree game'
 forumTopicId: 302067
 ---
@@ -56,7 +55,7 @@ tests:
 
 ```js
 function euler400() {
-  // Good luck!
+
   return true;
 }
 

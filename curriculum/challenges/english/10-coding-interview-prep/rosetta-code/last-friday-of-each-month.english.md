@@ -2,7 +2,6 @@
 id: 5a23c84252665b21eecc7edc
 title: Last Friday of each month
 challengeType: 5
-isHidden: false
 forumTopicId: 302299
 ---
 
@@ -58,7 +57,7 @@ tests:
 
 ```js
 function lastFriday(year, month) {
-  // Good luck!
+
 }
 ```
 

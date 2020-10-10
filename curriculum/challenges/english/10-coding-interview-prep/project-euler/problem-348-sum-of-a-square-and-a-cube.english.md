@@ -1,7 +1,6 @@
 ---
 id: 5900f4c81000cf542c50ffdb
 challengeType: 5
-isHidden: false
 title: 'Problem 348: Sum of a square and a cube'
 forumTopicId: 302007
 ---
@@ -44,7 +43,7 @@ tests:
 
 ```js
 function euler348() {
-  // Good luck!
+
   return true;
 }
 

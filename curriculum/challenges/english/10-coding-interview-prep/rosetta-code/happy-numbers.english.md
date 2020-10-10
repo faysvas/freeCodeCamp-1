@@ -2,7 +2,6 @@
 title: Happy numbers
 id: 594810f028c0303b75339ad1
 challengeType: 5
-isHidden: false
 forumTopicId: 302280
 ---
 
@@ -60,7 +59,7 @@ tests:
 
 ```js
 function happy(number) {
-  // Good luck!
+
 }
 ```
 

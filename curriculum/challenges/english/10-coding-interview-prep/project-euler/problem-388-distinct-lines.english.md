@@ -1,7 +1,6 @@
 ---
 id: 5900f4f11000cf542c510002
 challengeType: 5
-isHidden: false
 title: 'Problem 388: Distinct Lines'
 forumTopicId: 302052
 ---
@@ -44,7 +43,7 @@ tests:
 
 ```js
 function euler388() {
-  // Good luck!
+
   return true;
 }
 

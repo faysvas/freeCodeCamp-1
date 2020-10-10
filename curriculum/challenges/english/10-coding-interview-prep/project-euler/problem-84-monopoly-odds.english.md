@@ -1,7 +1,6 @@
 ---
 id: 5900f3c11000cf542c50fed3
 challengeType: 5
-isHidden: false
 title: 'Problem 84: Monopoly odds'
 forumTopicId: 302198
 ---
@@ -153,7 +152,7 @@ tests:
 
 ```js
 function monopolyOdds() {
-  // Good luck!
+
   return true;
 }
 

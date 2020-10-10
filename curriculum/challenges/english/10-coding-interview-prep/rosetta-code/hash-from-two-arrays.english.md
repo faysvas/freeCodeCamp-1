@@ -2,7 +2,6 @@
 title: Hash from two arrays
 id: 595671d4d2cdc305f0d5b36f
 challengeType: 5
-isHidden: false
 forumTopicId: 302283
 ---
 
@@ -51,7 +50,7 @@ tests:
 
 ```js
 function arrToObj (keys, vals) {
-  // Good luck!
+
   return true;
 }
 ```

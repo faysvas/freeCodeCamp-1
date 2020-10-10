@@ -1,7 +1,6 @@
 ---
 id: 5900f38a1000cf542c50fe9d
 challengeType: 5
-isHidden: false
 title: 'Problem 30: Digit n powers'
 forumTopicId: 301953
 ---
@@ -57,7 +56,7 @@ tests:
 
 ```js
 function digitnPowers(n) {
-  // Good luck!
+
   return n;
 }
 

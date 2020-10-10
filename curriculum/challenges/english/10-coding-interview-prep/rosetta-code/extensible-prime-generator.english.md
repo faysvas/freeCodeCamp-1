@@ -2,7 +2,6 @@
 title: Extensible prime generator
 id: 598ee8b91b410510ae82efef
 challengeType: 5
-isHidden: false
 forumTopicId: 302262
 ---
 
@@ -51,7 +50,7 @@ tests:
 
 ```js
 function primeGenerator(num, showPrimes) {
-  // Good luck!
+
 }
 ```
 
@@ -66,7 +65,6 @@ function primeGenerator(num, showPrimes) {
 
 
 ```js
-// noprotect
 function primeGenerator(num, showPrimes) {
   let i,
     arr = [];

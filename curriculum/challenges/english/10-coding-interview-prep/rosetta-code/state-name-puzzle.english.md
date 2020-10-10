@@ -2,7 +2,6 @@
 id: 5a23c84252665b21eecc8024
 title: State name puzzle
 challengeType: 5
-isHidden: false
 forumTopicId: 302323
 ---
 
@@ -52,7 +51,7 @@ tests:
 
 ```js
 function solve(input) {
-  // Good luck!
+
 }
 ```
 
@@ -67,7 +66,7 @@ function solve(input) {
 function solve(input) {
   var orig = {};
   input.forEach(function(e) {
-    orig[e.replace(/\s/g, '').toLowerCase()] = e;
+    orig[__helpers.removeWhiteSpace(e).toLowerCase()] = e;
   });
 
   input = Object.keys(orig);

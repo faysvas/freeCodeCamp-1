@@ -2,7 +2,6 @@
 id: 5cfa3679138e7d9595b9d9d4
 title: Replace Loops using Recursion
 challengeType: 1
-isHidden: false
 videoUrl: 'https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9/'
 forumTopicId: 301175
 ---
@@ -58,9 +57,9 @@ tests:
   - text: <code>sum([2, 3, 4, 5], 3)</code> should equal 9.
     testString: assert.equal(sum([2, 3, 4, 5], 3), 9);
   - text: Your code should not rely on any kind of loops (<code>for</code> or <code>while</code> or higher order functions such as <code>forEach</code>, <code>map</code>, <code>filter</code>, or <code>reduce</code>.).
-    testString: assert(!removeJSComments(code).match(/for|while|forEach|map|filter|reduce/g));
+    testString: assert(!__helpers.removeJSComments(code).match(/for|while|forEach|map|filter|reduce/g));
   - text: You should use recursion to solve this problem.
-    testString: assert(removeJSComments(sum.toString()).match(/sum\(.*\)/g).length > 1);
+    testString: assert(__helpers.removeJSComments(sum.toString()).match(/sum\(.*\)/g).length > 1);
 ```
 
 </section>
@@ -76,16 +75,6 @@ function sum(arr, n) {
 
   // Only change code above this line
 }
-
-```
-
-</div>
-
-### After Test
-<div id='js-teardown'>
-
-```js
-const removeJSComments = str => str.replace(/\/\*[\s\S]*?\*\/|\/\/.*$/gm, '');
 
 ```
 

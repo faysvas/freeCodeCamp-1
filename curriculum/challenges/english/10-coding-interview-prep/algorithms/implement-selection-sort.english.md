@@ -2,7 +2,6 @@
 id: 587d8259367417b2b2512c85
 title: Implement Selection Sort
 challengeType: 1
-isHidden: false
 forumTopicId: 301616
 ---
 
@@ -43,9 +42,9 @@ tests:
 
 ```js
 function selectionSort(array) {
-  // change code below this line
+  // Only change code below this line
   return array;
-  // change code above this line
+  // Only change code above this line
 }
 
 

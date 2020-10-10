@@ -2,7 +2,6 @@
 title: Emirp primes
 id: 599d0ba974141b0f508b37d5
 challengeType: 5
-isHidden: false
 forumTopicId: 302253
 ---
 
@@ -50,7 +49,7 @@ tests:
 
 ```js
 function emirps(n) {
-  // Good luck!
+
 }
 ```
 
@@ -65,7 +64,6 @@ function emirps(n) {
 
 
 ```js
-// noprotect
 function emirps(num, showEmirps)
 {
   const is_prime = function(n)

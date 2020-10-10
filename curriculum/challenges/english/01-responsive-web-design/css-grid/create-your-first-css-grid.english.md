@@ -2,7 +2,6 @@
 id: 5a858944d96184f06fd60d61
 title: Create Your First CSS Grid
 challengeType: 0
-isHidden: false
 videoUrl: 'https://scrimba.com/p/pByETK/cqwREC4'
 forumTopicId: 301129
 ---
@@ -73,8 +72,8 @@ tests:
 <section id='solution'>
 
 
-```js
-var code = ".container {display: grid;}"
+```html
+<style>.container {display: grid;}</style>
 ```
 
 </section>

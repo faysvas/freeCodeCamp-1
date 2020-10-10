@@ -1,7 +1,6 @@
 ---
 id: 5900f4551000cf542c50ff67
 challengeType: 5
-isHidden: false
 title: 'Problem 232: The Race'
 forumTopicId: 301876
 ---
@@ -41,7 +40,7 @@ tests:
 
 ```js
 function euler232() {
-  // Good luck!
+
   return true;
 }
 

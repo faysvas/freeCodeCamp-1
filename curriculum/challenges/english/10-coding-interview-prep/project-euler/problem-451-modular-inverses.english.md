@@ -1,7 +1,6 @@
 ---
 id: 5900f5311000cf542c510042
 challengeType: 5
-isHidden: false
 title: 'Problem 451: Modular inverses'
 forumTopicId: 302124
 ---
@@ -50,7 +49,7 @@ tests:
 
 ```js
 function euler451() {
-  // Good luck!
+
   return true;
 }
 

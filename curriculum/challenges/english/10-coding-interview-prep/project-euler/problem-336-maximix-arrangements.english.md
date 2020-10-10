@@ -1,7 +1,6 @@
 ---
 id: 5900f4bd1000cf542c50ffcf
 challengeType: 5
-isHidden: false
 title: 'Problem 336: Maximix Arrangements'
 forumTopicId: 301994
 ---
@@ -48,7 +47,7 @@ tests:
 
 ```js
 function euler336() {
-  // Good luck!
+
   return true;
 }
 

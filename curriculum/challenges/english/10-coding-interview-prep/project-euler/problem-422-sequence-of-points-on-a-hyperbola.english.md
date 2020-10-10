@@ -1,7 +1,6 @@
 ---
 id: 5900f5131000cf542c510025
 challengeType: 5
-isHidden: false
 title: 'Problem 422: Sequence of points on a hyperbola'
 forumTopicId: 302092
 ---
@@ -47,7 +46,7 @@ tests:
 
 ```js
 function euler422() {
-  // Good luck!
+
   return true;
 }
 

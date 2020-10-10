@@ -1,7 +1,6 @@
 ---
 id: 5900f47d1000cf542c50ff8f
 challengeType: 5
-isHidden: false
 title: 'Problem 272: Modular Cubes, part 2'
 forumTopicId: 301922
 ---
@@ -41,7 +40,7 @@ tests:
 
 ```js
 function euler272() {
-  // Good luck!
+
   return true;
 }
 

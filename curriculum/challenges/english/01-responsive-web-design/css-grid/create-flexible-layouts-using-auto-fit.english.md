@@ -2,7 +2,6 @@
 id: 5a94fe6269fb03452672e462
 title: Create Flexible Layouts Using auto-fit
 challengeType: 0
-isHidden: false
 videoUrl: 'https://scrimba.com/p/pByETK/c3dPph8'
 forumTopicId: 301127
 ---
@@ -96,8 +95,8 @@ tests:
 <section id='solution'>
 
 
-```js
-var code = ".container {grid-template-columns: repeat( auto-fill, minmax(60px, 1fr));} .container2 {grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));}"
+```html
+<style>.container {grid-template-columns: repeat( auto-fill, minmax(60px, 1fr));} .container2 {grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));}</style>
 ```
 
 </section>

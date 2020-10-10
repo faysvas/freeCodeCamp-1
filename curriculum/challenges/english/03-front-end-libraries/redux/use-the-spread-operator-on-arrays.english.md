@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d4036159
 title: Use the Spread Operator on Arrays
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301452
 ---
@@ -40,13 +39,13 @@ tests:
 ## Challenge Seed
 <section id='challengeSeed'>
 
-<div id='jsx-seed'>
+<div id='js-seed'>
 
-```jsx
+```js
 const immutableReducer = (state = ['Do not mutate state!'], action) => {
   switch(action.type) {
     case 'ADD_TO_DO':
-      // don't mutate state here or the tests will fail
+      // Don't mutate state here or the tests will fail
       return
     default:
       return state;

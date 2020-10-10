@@ -1,7 +1,6 @@
 ---
 id: 5900f4a61000cf542c50ffb8
 challengeType: 5
-isHidden: false
 title: 'Problem 313: Sliding game'
 forumTopicId: 301969
 ---
@@ -45,7 +44,7 @@ tests:
 
 ```js
 function euler313() {
-  // Good luck!
+
   return true;
 }
 

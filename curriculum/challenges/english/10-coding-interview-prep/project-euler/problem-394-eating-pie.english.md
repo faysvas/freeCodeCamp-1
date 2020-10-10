@@ -1,7 +1,6 @@
 ---
 id: 5900f4f71000cf542c510009
 challengeType: 5
-isHidden: false
 title: 'Problem 394: Eating pie'
 forumTopicId: 302059
 ---
@@ -51,7 +50,7 @@ tests:
 
 ```js
 function euler394() {
-  // Good luck!
+
   return true;
 }
 

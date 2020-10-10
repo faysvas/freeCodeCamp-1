@@ -1,7 +1,6 @@
 ---
 id: 5900f4931000cf542c50ffa5
 challengeType: 5
-isHidden: false
 title: 'Problem 294: Sum of digits - experience #23'
 forumTopicId: 301946
 ---
@@ -46,7 +45,7 @@ tests:
 
 ```js
 function euler294() {
-  // Good luck!
+
   return true;
 }
 

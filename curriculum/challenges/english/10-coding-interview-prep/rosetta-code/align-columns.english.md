@@ -2,7 +2,6 @@
 title: Align columns
 id: 594810f028c0303b75339ad0
 challengeType: 5
-isHidden: false
 forumTopicId: 302224
 ---
 
@@ -77,7 +76,7 @@ const testArr = [
 ];
 
 function formatText(input, justification) {
-  // Good luck!
+
 }
 ```
 

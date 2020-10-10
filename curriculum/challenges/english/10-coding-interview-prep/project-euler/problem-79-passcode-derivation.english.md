@@ -1,7 +1,6 @@
 ---
 id: 5900f3bb1000cf542c50fece
 challengeType: 5
-isHidden: false
 title: 'Problem 79: Passcode derivation'
 forumTopicId: 302192
 ---
@@ -43,7 +42,7 @@ tests:
 
 ```js
 function passcodeDerivation(arr) {
-  // Good luck!
+
   return true;
 }
 

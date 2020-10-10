@@ -1,7 +1,6 @@
 ---
 id: 5900f3e61000cf542c50fef9
 challengeType: 5
-isHidden: false
 title: 'Problem 122: Efficient exponentiation'
 forumTopicId: 301749
 ---
@@ -42,7 +41,7 @@ tests:
 
 ```js
 function euler122() {
-  // Good luck!
+
   return true;
 }
 

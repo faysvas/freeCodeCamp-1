@@ -2,7 +2,6 @@
 id: 587d8255367417b2b2512c73
 title: Use Spread and Notes for ES5 Set() Integration
 challengeType: 1
-isHidden: false
 forumTopicId: 301720
 ---
 
@@ -45,9 +44,9 @@ tests:
 
 ```js
 function checkSet(set){
-   // change code below this line
+   // Only change code below this line
 
-   // change code above this line
+   // Only change code above this line
 }
 ```
 

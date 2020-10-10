@@ -1,7 +1,6 @@
 ---
 id: 5900f5361000cf542c510049
 challengeType: 5
-isHidden: false
 title: 'Problem 458: Permutations of Project'
 forumTopicId: 302132
 ---
@@ -41,7 +40,7 @@ tests:
 
 ```js
 function euler458() {
-  // Good luck!
+
   return true;
 }
 

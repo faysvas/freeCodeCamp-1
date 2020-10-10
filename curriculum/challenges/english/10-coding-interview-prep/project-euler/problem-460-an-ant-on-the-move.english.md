@@ -1,7 +1,6 @@
 ---
 id: 5900f5381000cf542c51004b
 challengeType: 5
-isHidden: false
 title: 'Problem 460: An ant on the move'
 forumTopicId: 302135
 ---
@@ -55,7 +54,7 @@ tests:
 
 ```js
 function euler460() {
-  // Good luck!
+
   return true;
 }
 

@@ -2,7 +2,6 @@
 id: 598e8944f009e646fc236146
 title: Understanding Undefined Value returned from a Function
 challengeType: 1
-isHidden: false
 videoUrl: 'https://scrimba.com/c/ce2p7cL'
 forumTopicId: 301177
 ---
@@ -40,7 +39,7 @@ tests:
   - text: Returned value from <code>addFive</code> should be <code>undefined</code>.
     testString: assert(addFive() === undefined);
   - text: Inside the <code>addFive</code> function, you should add <code>5</code> to the <code>sum</code> variable.
-    testString: assert(addFive.toString().replace(/\s/g, '').match(/sum=sum\+5|sum\+=5/));
+    testString: assert(__helpers.removeWhiteSpace(addFive.toString()).match(/sum=sum\+5|sum\+=5/));
 
 ```
 

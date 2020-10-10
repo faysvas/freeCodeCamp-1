@@ -1,7 +1,6 @@
 ---
 id: 5900f4231000cf542c50ff34
 challengeType: 5
-isHidden: false
 title: 'Problem 181: Investigating in how many ways objects of two different colours can be grouped'
 forumTopicId: 301817
 ---
@@ -38,7 +37,7 @@ tests:
 
 ```js
 function euler181() {
-  // Good luck!
+
   return true;
 }
 

@@ -2,7 +2,6 @@
 id: 5cc0c1b32479e176caf3b422
 title: Check if Tree is Binary Search Tree
 challengeType: 1
-isHidden: false
 forumTopicId: 301624
 ---
 
@@ -48,8 +47,9 @@ function BinarySearchTree() {
   this.root = null;
 }
 function isBinarySearchTree(tree) {
-  // change code below this line
-  // change code above this line
+  // Only change code below this line
+  
+  // Only change code above this line
 }
 ```
 

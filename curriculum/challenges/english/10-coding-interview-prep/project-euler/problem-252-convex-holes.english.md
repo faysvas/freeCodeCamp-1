@@ -1,7 +1,6 @@
 ---
 id: 5900f4691000cf542c50ff7b
 challengeType: 5
-isHidden: false
 title: 'Problem 252: Convex Holes'
 forumTopicId: 301900
 ---
@@ -61,7 +60,7 @@ tests:
 
 ```js
 function euler252() {
-  // Good luck!
+
   return true;
 }
 

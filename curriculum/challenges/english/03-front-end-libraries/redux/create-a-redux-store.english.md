@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d403614b
 title: Create a Redux Store
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301439
 ---
@@ -38,9 +37,9 @@ tests:
 ## Challenge Seed
 <section id='challengeSeed'>
 
-<div id='jsx-seed'>
+<div id='js-seed'>
 
-```jsx
+```js
 const reducer = (state = 5) => {
   return state;
 }
@@ -48,7 +47,6 @@ const reducer = (state = 5) => {
 // Redux methods are available from a Redux object
 // For example: Redux.createStore()
 // Define the store here:
-
 
 ```
 
@@ -66,10 +64,6 @@ const reducer = (state = 5) => {
 const reducer = (state = 5) => {
   return state;
 }
-
-// Redux methods are available from a Redux object
-// For example: Redux.createStore()
-// Define the store here:
 
 const store = Redux.createStore(reducer);
 ```

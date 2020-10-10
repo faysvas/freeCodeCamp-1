@@ -1,7 +1,6 @@
 ---
 id: 5900f39e1000cf542c50feb1
 challengeType: 5
-isHidden: false
 title: 'Problem 50: Consecutive prime sum'
 forumTopicId: 302161
 ---
@@ -49,7 +48,7 @@ tests:
 
 ```js
 function consecutivePrimeSum(limit) {
-  // Good luck!
+
   return true;
 }
 

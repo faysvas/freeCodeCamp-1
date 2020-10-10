@@ -1,7 +1,6 @@
 ---
 id: 5900f4711000cf542c50ff84
 challengeType: 5
-isHidden: false
 title: 'Problem 261: Pivotal Square Sums'
 forumTopicId: 301910
 ---
@@ -44,7 +43,7 @@ tests:
 
 ```js
 function euler261() {
-  // Good luck!
+
   return true;
 }
 

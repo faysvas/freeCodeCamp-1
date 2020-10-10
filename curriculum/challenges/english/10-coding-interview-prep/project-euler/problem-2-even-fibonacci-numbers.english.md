@@ -1,7 +1,6 @@
 ---
 id: 5900f36e1000cf542c50fe81
 challengeType: 5
-isHidden: false
 title: 'Problem 2: Even Fibonacci Numbers'
 forumTopicId: 301838
 ---
@@ -60,11 +59,9 @@ tests:
 
 ```js
 function fiboEvenSum(n) {
-  // You can do it!
+
   return true;
 }
-
-fiboEvenSum(10);
 ```
 
 </div>

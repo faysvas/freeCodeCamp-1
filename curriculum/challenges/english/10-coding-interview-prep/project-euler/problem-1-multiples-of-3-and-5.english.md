@@ -1,7 +1,6 @@
 ---
 id: 5900f36e1000cf542c50fe80
 challengeType: 5
-isHidden: false
 title: 'Problem 1: Multiples of 3 and 5'
 forumTopicId: 301722
 ---
@@ -47,7 +46,7 @@ tests:
 
 ```js
 function multiplesOf3and5(number) {
-  // Good luck!
+
   return true;
 }
 

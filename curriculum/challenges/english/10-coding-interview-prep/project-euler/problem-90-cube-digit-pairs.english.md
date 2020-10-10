@@ -1,7 +1,6 @@
 ---
 id: 5900f3c61000cf542c50fed9
 challengeType: 5
-isHidden: false
 title: 'Problem 90: Cube digit pairs'
 forumTopicId: 302207
 ---
@@ -60,7 +59,7 @@ tests:
 
 ```js
 function cubeDigitPairs() {
-  // Good luck!
+
   return true;
 }
 

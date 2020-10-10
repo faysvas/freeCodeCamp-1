@@ -1,7 +1,6 @@
 ---
 id: 5900f4ba1000cf542c50ffcd
 challengeType: 5
-isHidden: false
 title: 'Problem 334: Spilling the beans'
 forumTopicId: 301992
 ---
@@ -58,7 +57,7 @@ tests:
 
 ```js
 function euler334() {
-  // Good luck!
+
   return true;
 }
 

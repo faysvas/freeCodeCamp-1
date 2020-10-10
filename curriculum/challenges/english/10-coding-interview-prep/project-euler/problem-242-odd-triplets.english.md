@@ -1,7 +1,6 @@
 ---
 id: 5900f45f1000cf542c50ff71
 challengeType: 5
-isHidden: false
 title: 'Problem 242: Odd Triplets'
 forumTopicId: 301889
 ---
@@ -43,7 +42,7 @@ tests:
 
 ```js
 function euler242() {
-  // Good luck!
+
   return true;
 }
 

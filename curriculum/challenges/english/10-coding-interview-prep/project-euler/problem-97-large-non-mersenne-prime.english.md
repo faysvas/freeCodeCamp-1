@@ -1,7 +1,6 @@
 ---
 id: 5900f3ce1000cf542c50fee0
 challengeType: 5
-isHidden: false
 title: 'Problem 97: Large non-Mersenne prime'
 forumTopicId: 302214
 ---
@@ -43,7 +42,7 @@ tests:
 
 ```js
 function lrgNonMersennePrime() {
-  // Good luck!
+
   return true;
 }
 

@@ -1,7 +1,6 @@
 ---
 id: 5900f3dd1000cf542c50fef0
 challengeType: 5
-isHidden: false
 title: 'Problem 113: Non-bouncy numbers'
 forumTopicId: 301739
 ---
@@ -39,7 +38,7 @@ tests:
 
 ```js
 function euler113() {
-  // Good luck!
+
   return true;
 }
 

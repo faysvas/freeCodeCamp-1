@@ -1,7 +1,6 @@
 ---
 id: 5900f4fd1000cf542c51000f
 challengeType: 5
-isHidden: false
 title: 'Problem 401: Sum of squares of divisors'
 forumTopicId: 302069
 ---
@@ -46,7 +45,7 @@ tests:
 
 ```js
 function euler401() {
-  // Good luck!
+
   return true;
 }
 

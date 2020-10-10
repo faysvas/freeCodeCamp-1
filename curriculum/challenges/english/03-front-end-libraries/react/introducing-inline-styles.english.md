@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d4036181
 title: Introducing Inline Styles
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301395
 ---
@@ -63,7 +62,7 @@ class Colorful extends React.Component {
 ### After Test
 <div id='jsx-teardown'>
 
-```js
+```jsx
 ReactDOM.render(<Colorful />, document.getElementById('root'))
 ```
 
@@ -75,7 +74,7 @@ ReactDOM.render(<Colorful />, document.getElementById('root'))
 <section id='solution'>
 
 
-```js
+```jsx
 class Colorful extends React.Component {
   render() {
     return (

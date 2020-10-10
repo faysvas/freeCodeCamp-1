@@ -1,7 +1,6 @@
 ---
 id: 5900f4d41000cf542c50ffe7
 challengeType: 5
-isHidden: false
 title: 'Problem 360: Scary Sphere'
 forumTopicId: 302021
 ---
@@ -46,7 +45,7 @@ tests:
 
 ```js
 function euler360() {
-  // Good luck!
+
   return true;
 }
 

@@ -1,7 +1,6 @@
 ---
 id: 5900f48d1000cf542c50ff9f
 challengeType: 5
-isHidden: false
 title: 'Problem 288: An enormous factorial'
 forumTopicId: 301939
 ---
@@ -50,7 +49,7 @@ tests:
 
 ```js
 function euler288() {
-  // Good luck!
+
   return true;
 }
 

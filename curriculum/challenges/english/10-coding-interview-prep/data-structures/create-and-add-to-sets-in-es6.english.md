@@ -2,7 +2,6 @@
 id: 587d8254367417b2b2512c70
 title: Create and Add to Sets in ES6
 challengeType: 1
-isHidden: false
 forumTopicId: 301636
 ---
 
@@ -55,9 +54,9 @@ tests:
 ```js
 function checkSet() {
   var set = new Set([1, 2, 3, 3, 2, 1, 2, 3, 1]);
-  // change code below this line
+  // Only change code below this line
 
-  // change code above this line
+  // Only change code above this line
   console.log(Array.from(set));
   return set;
 }

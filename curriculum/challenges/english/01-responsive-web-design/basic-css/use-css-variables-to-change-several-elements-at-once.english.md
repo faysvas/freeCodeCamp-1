@@ -2,7 +2,6 @@
 id: 5a9d725e424fe3d0e10cad10
 title: Use CSS Variables to change several elements at once
 challengeType: 0
-isHidden: false
 videoUrl: 'https://scrimba.com/c/c6bDECm'
 forumTopicId: 301093
 ---
@@ -252,8 +251,8 @@ tests:
 <section id='solution'>
 
 
-```js
-var code = ".penguin {--penguin-skin: gray; --penguin-belly: white; --penguin-beak: orange;}"
+```html
+<style>.penguin {--penguin-skin: gray; --penguin-belly: white; --penguin-beak: orange;}</style>
 ```
 
 </section>

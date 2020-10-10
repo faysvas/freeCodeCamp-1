@@ -1,5 +1,5 @@
 const path = require('path');
-const { findIndex } = require('lodash');
+const { findIndex, reduce, toString } = require('lodash');
 const readDirP = require('readdirp-walk');
 const { parseMarkdown } = require('../tools/challenge-md-parser');
 const fs = require('fs');
@@ -11,8 +11,10 @@ const {
 /* eslint-enable max-len*/
 const { COMMENT_TRANSLATIONS } = require('./comment-dictionary');
 
-const { dasherize } = require('../utils/slugs');
 const { isAuditedCert } = require('../utils/is-audited');
+const { dasherize, nameify } = require('../utils/slugs');
+const { createPoly } = require('../utils/polyvinyl');
+const { blockNameify } = require('../utils/block-nameify');
 
 const challengesDir = path.resolve(__dirname, './challenges');
 const metaDir = path.resolve(challengesDir, '_meta');
@@ -65,9 +67,19 @@ async function buildCurriculum(file, curriculum) {
       `./challenges/_meta/${blockName}/meta.json`
     );
     const blockMeta = require(metaPath);
-    const { name: superBlock } = superBlockInfoFromPath(filePath);
-    const blockInfo = { meta: blockMeta, challenges: [] };
-    curriculum[superBlock].blocks[name] = blockInfo;
+    const { isUpcomingChange } = blockMeta;
+    if (typeof isUpcomingChange !== 'boolean') {
+      throw Error(
+        `meta file at ${metaPath} is missing 'isUpcomingChange', it must be 'true' or 'false'`
+      );
+    }
+
+    if (!isUpcomingChange || process.env.SHOW_UPCOMING_CHANGES === 'true') {
+      // add the block to the superBlock
+      const { name: superBlock } = superBlockInfoFromPath(filePath);
+      const blockInfo = { meta: blockMeta, challenges: [] };
+      curriculum[superBlock].blocks[name] = blockInfo;
+    }
     return;
   }
   if (name === 'meta.json' || name === '.DS_Store') {
@@ -77,12 +89,19 @@ async function buildCurriculum(file, curriculum) {
   const block = getBlockNameFromPath(filePath);
   const { name: superBlock } = superBlockInfoFromPath(filePath);
   let challengeBlock;
+
+  // TODO: this try block and process exit can all go once errors terminate the
+  // tests correctly.
   try {
     challengeBlock = curriculum[superBlock].blocks[block];
+    if (!challengeBlock) {
+      // this should only happen when a isUpcomingChange block is skipped
+      return;
+    }
   } catch (e) {
-    console.log(superBlock, block);
+    console.log(`failed to create superBlock ${superBlock}`);
     // eslint-disable-next-line no-process-exit
-    process.exit(0);
+    process.exit(1);
   }
   const { meta } = challengeBlock;
 
@@ -94,17 +113,12 @@ async function buildCurriculum(file, curriculum) {
 async function parseTranslation(engPath, transPath, dict) {
   const engChal = await parseMarkdown(engPath);
   const translatedChal = await parseMarkdown(transPath);
-  const codeLang =
-    engChal.files && engChal.files[0] ? engChal.files[0].ext : null;
 
-  const engWithTranslatedComments = codeLang
-    ? translateCommentsInChallenge(
-        engChal,
-        getChallengeLang(transPath),
-        dict,
-        codeLang
-      )
-    : engChal;
+  const engWithTranslatedComments = translateCommentsInChallenge(
+    engChal,
+    getChallengeLang(transPath),
+    dict
+  );
   return mergeChallenges(engWithTranslatedComments, translatedChal);
 }
 
@@ -163,12 +177,53 @@ Trying to parse ${fullPath}`);
   challenge.template = template;
   challenge.time = time;
 
-  // challenges can be hidden (so they do not appear in all environments e.g.
-  // production), SHOW_HIDDEN controls this.
-  if (process.env.SHOW_HIDDEN === 'true') {
-    challenge.isHidden = false;
+  return prepareChallenge(challenge);
+}
+
+// TODO: tests and more descriptive name.
+function filesToObject(files) {
+  return reduce(
+    files,
+    (map, file) => {
+      map[file.key] = {
+        ...file,
+        head: arrToString(file.head),
+        contents: arrToString(file.contents),
+        tail: arrToString(file.tail)
+      };
+      return map;
+    },
+    {}
+  );
+}
+
+// gets the challenge ready for sourcing into Gatsby
+function prepareChallenge(challenge) {
+  challenge.name = nameify(challenge.title);
+  if (challenge.files) {
+    challenge.files = filesToObject(challenge.files);
+    // TODO: This should be something that can be folded into the above reduce
+    // EDIT: maybe not, now that we're doing the same for solutionFiles.
+    challenge.files = Object.keys(challenge.files)
+      .filter(key => challenge.files[key])
+      .map(key => challenge.files[key])
+      .reduce(
+        (files, file) => ({
+          ...files,
+          [file.key]: {
+            ...createPoly(file),
+            seed: file.contents.slice(0)
+          }
+        }),
+        {}
+      );
   }
 
+  if (challenge.solutionFiles) {
+    challenge.solutionFiles = filesToObject(challenge.solutionFiles);
+  }
+  challenge.block = dasherize(challenge.block);
+  challenge.superBlock = blockNameify(challenge.superBlock);
   return challenge;
 }
 
@@ -243,4 +298,8 @@ function getBlockNameFromPath(filePath) {
 function getBlockNameFromFullPath(fullFilePath) {
   const [, block] = fullFilePath.split(path.sep).reverse();
   return block;
+}
+
+function arrToString(arr) {
+  return Array.isArray(arr) ? arr.join('\n') : toString(arr);
 }

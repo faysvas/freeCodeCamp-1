@@ -1,7 +1,6 @@
 ---
 id: 5900f4e11000cf542c50fff3
 challengeType: 5
-isHidden: false
 title: 'Problem 372: Pencils of rays'
 forumTopicId: 302034
 ---
@@ -41,7 +40,7 @@ tests:
 
 ```js
 function euler372() {
-  // Good luck!
+
   return true;
 }
 

@@ -1,7 +1,6 @@
 ---
 id: 5900f48f1000cf542c50ffa1
 challengeType: 5
-isHidden: false
 title: 'Problem 290: Digital Signature'
 forumTopicId: 301942
 ---
@@ -35,7 +34,7 @@ tests:
 
 ```js
 function euler290() {
-  // Good luck!
+
   return true;
 }
 

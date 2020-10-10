@@ -1,7 +1,6 @@
 ---
 id: 5900f37f1000cf542c50fe92
 challengeType: 5
-isHidden: false
 title: 'Problem 19: Counting Sundays'
 forumTopicId: 301827
 ---
@@ -51,7 +50,7 @@ tests:
 
 ```js
 function countingSundays(firstYear, lastYear) {
-  // Good luck!
+
   return true;
 }
 

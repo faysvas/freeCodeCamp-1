@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d4036151
 title: Use a Switch Statement to Handle Multiple Actions
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301449
 ---
@@ -43,17 +42,17 @@ tests:
 ## Challenge Seed
 <section id='challengeSeed'>
 
-<div id='jsx-seed'>
+<div id='js-seed'>
 
-```jsx
+```js
 const defaultState = {
   authenticated: false
 };
 
 const authReducer = (state = defaultState, action) => {
-  // change code below this line
+  // Change code below this line
 
-  // change code above this line
+  // Change code above this line
 };
 
 const store = Redux.createStore(authReducer);

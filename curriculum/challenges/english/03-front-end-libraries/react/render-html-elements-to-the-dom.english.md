@@ -2,7 +2,6 @@
 id: 5a24bbe0dba28a8d3cbd4c5f
 title: Render HTML Elements to the DOM
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301406
 ---
@@ -49,7 +48,7 @@ const JSX = (
     <p>Lets render this to the DOM</p>
   </div>
 );
-// change code below this line
+// Change code below this line
 
 ```
 
@@ -63,14 +62,14 @@ const JSX = (
 <section id='solution'>
 
 
-```js
+```jsx
 const JSX = (
 <div>
   <h1>Hello World</h1>
   <p>Lets render this to the DOM</p>
 </div>
 );
-// change code below this line
+// Change code below this line
 ReactDOM.render(JSX, document.getElementById('challenge-node'));
 ```
 

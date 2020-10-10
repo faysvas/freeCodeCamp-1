@@ -2,7 +2,6 @@
 id: 587d8257367417b2b2512c7e
 title: Use Depth First Search in a Binary Search Tree
 challengeType: 1
-isHidden: false
 forumTopicId: 301719
 ---
 
@@ -66,8 +65,9 @@ function Node(value) {
 }
 function BinarySearchTree() {
   this.root = null;
-  // change code below this line
-  // change code above this line
+  // Only change code below this line
+  
+  // Only change code above this line
 }
 ```
 

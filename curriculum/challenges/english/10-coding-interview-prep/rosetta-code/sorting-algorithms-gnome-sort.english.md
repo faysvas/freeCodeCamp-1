@@ -2,7 +2,6 @@
 id: 5a23c84252665b21eecc8007
 title: Sorting algorithms/Gnome sort
 challengeType: 5
-isHidden: false
 forumTopicId: 302314
 ---
 
@@ -69,7 +68,7 @@ tests:
 
 ```js
 function gnomeSort(a) {
-  // Good luck!
+
 }
 ```
 

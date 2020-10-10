@@ -1,7 +1,6 @@
 ---
 id: 5900f4ea1000cf542c50fffc
 challengeType: 5
-isHidden: false
 title: 'Problem 381: (prime-k) factorial'
 forumTopicId: 302045
 ---
@@ -46,7 +45,7 @@ tests:
 
 ```js
 function euler381() {
-  // Good luck!
+
   return true;
 }
 

@@ -2,8 +2,6 @@
 id: 587d7b7e367417b2b2512b24
 title: Use the Conditional (Ternary) Operator
 challengeType: 1
-isHidden: false
-videoUrl: 'https://scrimba.com/c/c3JRmSg'
 forumTopicId: 301181
 ---
 
@@ -11,7 +9,7 @@ forumTopicId: 301181
 <section id='description'>
 The <dfn>conditional operator</dfn>, also called the <dfn>ternary operator</dfn>, can be used as a one line if-else expression.
 The syntax is:
-<code>condition ? statement-if-true : statement-if-false;</code>
+<code>condition ? expression-if-true : expression-if-false;</code>
 The following function uses an if-else statement to check a condition:
 
 ```js

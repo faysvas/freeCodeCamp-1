@@ -2,7 +2,6 @@
 title: Y combinator
 id: 594810f028c0303b75339ad5
 challengeType: 5
-isHidden: false
 forumTopicId: 302345
 ---
 
@@ -53,7 +52,7 @@ tests:
 ```js
 function Y(f) {
   return function() {
-  // Good luck!
+
   };
 }
 

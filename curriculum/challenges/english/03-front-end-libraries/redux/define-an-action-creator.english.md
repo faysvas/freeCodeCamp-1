@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d403614e
 title: Define an Action Creator
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301441
 ---
@@ -36,9 +35,9 @@ tests:
 ## Challenge Seed
 <section id='challengeSeed'>
 
-<div id='jsx-seed'>
+<div id='js-seed'>
 
-```jsx
+```js
 const action = {
   type: 'LOGIN'
 }
@@ -60,7 +59,6 @@ const action = {
 const action = {
   type: 'LOGIN'
 }
-// Define an action creator here:
 const actionCreator = () => {
   return action;
 };

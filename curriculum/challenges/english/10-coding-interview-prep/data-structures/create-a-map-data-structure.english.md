@@ -2,7 +2,6 @@
 id: 8d5823c8c441eddfaeb5bdef
 title: Create a Map Data Structure
 challengeType: 1
-isHidden: false
 forumTopicId: 301629
 ---
 
@@ -59,8 +58,9 @@ tests:
 ```js
 var Map = function() {
   this.collection = {};
-  // change code below this line
-  // change code above this line
+  // Only change code below this line
+  
+  // Only change code above this line
 };
 ```
 
@@ -73,7 +73,7 @@ var Map = function() {
 ```js
 var Map = function() {
     this.collection = {};
-    // change code below this line
+    // Only change code below this line
 
     this.add = function(key,value) {
       this.collection[key] = value;
@@ -104,7 +104,7 @@ var Map = function() {
         delete this.collection[item];
       }
     }
-    // change code above this line
+    // Only change code above this line
 };
 ```
 

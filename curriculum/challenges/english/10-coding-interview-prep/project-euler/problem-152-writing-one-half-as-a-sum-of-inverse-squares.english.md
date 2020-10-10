@@ -1,7 +1,6 @@
 ---
 id: 5900f4041000cf542c50ff17
 challengeType: 5
-isHidden: false
 title: 'Problem 152: Writing one half as a sum of inverse squares'
 forumTopicId: 301783
 ---
@@ -39,7 +38,7 @@ tests:
 
 ```js
 function euler152() {
-  // Good luck!
+
   return true;
 }
 

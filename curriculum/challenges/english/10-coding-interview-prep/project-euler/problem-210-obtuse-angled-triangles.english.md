@@ -1,7 +1,6 @@
 ---
 id: 5900f43e1000cf542c50ff50
 challengeType: 5
-isHidden: false
 title: 'Problem 210: Obtuse Angled Triangles'
 forumTopicId: 301852
 ---
@@ -40,7 +39,7 @@ tests:
 
 ```js
 function euler210() {
-  // Good luck!
+
   return true;
 }
 

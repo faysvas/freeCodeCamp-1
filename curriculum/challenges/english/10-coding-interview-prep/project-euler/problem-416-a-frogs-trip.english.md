@@ -1,7 +1,6 @@
 ---
 id: 5900f50e1000cf542c510020
 challengeType: 5
-isHidden: false
 title: 'Problem 416: A frog''s trip'
 forumTopicId: 302085
 ---
@@ -40,7 +39,7 @@ tests:
 
 ```js
 function euler416() {
-  // Good luck!
+
   return true;
 }
 

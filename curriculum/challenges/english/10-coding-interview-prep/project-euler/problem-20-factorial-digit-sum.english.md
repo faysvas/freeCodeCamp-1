@@ -1,7 +1,6 @@
 ---
 id: 5900f3801000cf542c50fe93
 challengeType: 5
-isHidden: false
 title: 'Problem 20: Factorial digit sum'
 forumTopicId: 301839
 ---
@@ -51,7 +50,7 @@ tests:
 
 ```js
 function sumFactorialDigits(n) {
-  // Good luck!
+
   return n;
 }
 

@@ -1,7 +1,6 @@
 ---
 id: 5900f4b91000cf542c50ffcb
 challengeType: 5
-isHidden: false
 title: 'Problem 332: Spherical triangles'
 forumTopicId: 301990
 ---
@@ -48,7 +47,7 @@ tests:
 
 ```js
 function euler332() {
-  // Good luck!
+
   return true;
 }
 

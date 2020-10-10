@@ -1,7 +1,6 @@
 ---
 id: 5900f3cc1000cf542c50fedf
 challengeType: 5
-isHidden: false
 title: 'Problem 96: Su Doku'
 forumTopicId: 302213
 ---
@@ -137,7 +136,7 @@ tests:
 
 ```js
 function suDoku(arr) {
-  // Good luck!
+
   return true;
 }
 

@@ -1,7 +1,6 @@
 ---
 id: 5900f5481000cf542c51005b
 challengeType: 5
-isHidden: false
 title: 'Problem 476: Circle Packing II'
 forumTopicId: 302153
 ---
@@ -38,7 +37,7 @@ tests:
 
 ```js
 function euler476() {
-  // Good luck!
+
   return true;
 }
 

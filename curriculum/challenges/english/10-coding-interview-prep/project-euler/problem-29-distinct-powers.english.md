@@ -1,7 +1,6 @@
 ---
 id: 5900f3891000cf542c50fe9c
 challengeType: 5
-isHidden: false
 title: 'Problem 29: Distinct powers'
 forumTopicId: 301941
 ---
@@ -60,7 +59,7 @@ tests:
 
 ```js
 function distinctPowers(n) {
-  // Good luck!
+
   return n;
 }
 

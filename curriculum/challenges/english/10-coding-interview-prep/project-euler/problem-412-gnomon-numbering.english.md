@@ -1,7 +1,6 @@
 ---
 id: 5900f5081000cf542c51001a
 challengeType: 5
-isHidden: false
 title: 'Problem 412: Gnomon numbering'
 forumTopicId: 302081
 ---
@@ -49,7 +48,7 @@ tests:
 
 ```js
 function euler412() {
-  // Good luck!
+
   return true;
 }
 

@@ -2,7 +2,6 @@
 id: 587d7faa367417b2b2512bd2
 title: Add Labels to D3 Elements
 challengeType: 6
-isHidden: false
 forumTopicId: 301476
 ---
 
@@ -97,7 +96,7 @@ tests:
 ## Solution
 <section id='solution'>
 
-```js
+```html
 <body>
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];

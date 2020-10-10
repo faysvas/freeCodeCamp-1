@@ -1,7 +1,6 @@
 ---
 id: 5900f3ca1000cf542c50fedc
 challengeType: 5
-isHidden: false
 title: 'Problem 93: Arithmetic expressions'
 forumTopicId: 302210
 ---
@@ -54,7 +53,7 @@ tests:
 
 ```js
 function arithmeticExpressions() {
-  // Good luck!
+
   return true;
 }
 

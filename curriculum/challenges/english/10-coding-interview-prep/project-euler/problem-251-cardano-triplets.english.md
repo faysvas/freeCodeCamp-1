@@ -1,7 +1,6 @@
 ---
 id: 5900f4671000cf542c50ff7a
 challengeType: 5
-isHidden: false
 title: 'Problem 251: Cardano Triplets'
 forumTopicId: 301899
 ---
@@ -45,7 +44,7 @@ tests:
 
 ```js
 function euler251() {
-  // Good luck!
+
   return true;
 }
 

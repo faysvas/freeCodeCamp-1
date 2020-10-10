@@ -2,7 +2,6 @@
 id: bad87fee1348bd9acdd08826
 title: Learn How Script Tags and Document Ready Work
 challengeType: 6
-isHidden: false
 forumTopicId: 18224
 ---
 
@@ -44,7 +43,7 @@ tests:
 <div id='html-seed'>
 
 ```html
-<!-- Only change code above this line. -->
+<!-- Only change code above this line -->
 
 <div class="container-fluid">
   <h3 class="text-primary text-center">jQuery Playground</h3>
@@ -83,7 +82,7 @@ tests:
   $(document).ready(function() {
   });
 </script>
-<!-- Only change code above this line. -->
+<!-- Only change code above this line -->
 
 <div class="container-fluid">
   <h3 class="text-primary text-center">jQuery Playground</h3>

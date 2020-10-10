@@ -1,7 +1,6 @@
 ---
 id: 5900f4411000cf542c50ff54
 challengeType: 5
-isHidden: false
 title: 'Problem 213: Flea Circus'
 forumTopicId: 301855
 ---
@@ -38,7 +37,7 @@ tests:
 
 ```js
 function euler213() {
-  // Good luck!
+
   return true;
 }
 

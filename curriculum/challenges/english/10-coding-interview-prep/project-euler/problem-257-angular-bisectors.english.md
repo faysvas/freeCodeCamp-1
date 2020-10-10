@@ -1,7 +1,6 @@
 ---
 id: 5900f46e1000cf542c50ff80
 challengeType: 5
-isHidden: false
 title: 'Problem 257: Angular Bisectors'
 forumTopicId: 301905
 ---
@@ -47,7 +46,7 @@ tests:
 
 ```js
 function euler257() {
-  // Good luck!
+
   return true;
 }
 

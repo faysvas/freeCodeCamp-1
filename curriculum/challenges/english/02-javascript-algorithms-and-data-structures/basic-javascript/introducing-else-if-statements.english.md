@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244db
 title: Introducing Else If Statements
 challengeType: 1
-isHidden: false
 videoUrl: 'https://scrimba.com/c/caeJ2hm'
 forumTopicId: 18206
 ---
@@ -38,7 +37,7 @@ tests:
   - text: You should have at least two <code>if</code> statements
     testString: assert(code.match(/if/g).length > 1);
   - text: You should have closing and opening curly braces for each <code>if else</code> code block.
-    testString: assert(code.match(/if\s*\((.+)\)\s*\{[\s\S]+\}\s*else if\s*\((.+)\)\s*\{[\s\S]+\}\s*else\s*\{[\s\S]+\s*\}/));
+    testString: assert(code.match(/if\s*\((.+)\)\s*\{[\s\S]+\}\s*else\s+if\s*\((.+)\)\s*\{[\s\S]+\}\s*else\s*\{[\s\S]+\s*\}/));
   - text: <code>testElseIf(0)</code> should return "Smaller than 5"
     testString: assert(testElseIf(0) === "Smaller than 5");
   - text: <code>testElseIf(5)</code> should return "Between 5 and 10"

@@ -1,7 +1,6 @@
 ---
 id: 5900f4571000cf542c50ff6a
 challengeType: 5
-isHidden: false
 title: 'Problem 235: An Arithmetic Geometric sequence'
 forumTopicId: 301879
 ---
@@ -42,7 +41,7 @@ tests:
 
 ```js
 function euler235() {
-  // Good luck!
+
   return true;
 }
 

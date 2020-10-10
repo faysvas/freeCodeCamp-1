@@ -2,7 +2,6 @@
 id: 5a23c84252665b21eecc8028
 title: Stern-Brocot sequence
 challengeType: 5
-isHidden: false
 forumTopicId: 302324
 ---
 
@@ -72,7 +71,7 @@ tests:
 
 ```js
 function sternBrocot(num) {
-  // Good luck!
+
 }
 ```
 

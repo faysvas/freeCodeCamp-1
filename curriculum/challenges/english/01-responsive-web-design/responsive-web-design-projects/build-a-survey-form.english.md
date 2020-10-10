@@ -3,7 +3,6 @@ id: 587d78af367417b2b2512b03
 title: Build a Survey Form
 isRequired: true
 challengeType: 3
-isHidden: false
 forumTopicId: 301145
 ---
 
@@ -55,7 +54,7 @@ tests: []
 ## Solution
 <section id='solution'>
 
-```js
+```html
 // solution required
 ```
 

@@ -2,7 +2,6 @@
 id: 587d78a9367417b2b2512ae9
 title: Use a Bezier Curve to Move a Graphic
 challengeType: 0
-isHidden: false
 videoUrl: 'https://scrimba.com/c/c6bnRCK'
 forumTopicId: 301071
 ---
@@ -30,7 +29,7 @@ tests:
   - text: The element with the id <code>red</code> should no longer have the <code>animation-timing-function</code> property of linear.
     testString: assert($('#red').css('animation-timing-function') !== 'linear');
   - text: The value of the <code>animation-timing-function</code> property for the element with the id <code>blue</code> should not change.
-    testString: const blueBallAnimation = $('#blue').css('animation-timing-function').replace(/\s/g, ''); assert(blueBallAnimation == 'ease-out' || blueBallAnimation == 'cubic-bezier(0,0,0.58,1)');
+    testString: const blueBallAnimation = __helpers.removeWhiteSpace($('#blue').css('animation-timing-function')); assert(blueBallAnimation == 'ease-out' || blueBallAnimation == 'cubic-bezier(0,0,0.58,1)');
 
 ```
 

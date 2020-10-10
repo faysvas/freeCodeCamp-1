@@ -2,7 +2,6 @@
 id: 587d7dbc367417b2b2512bb1
 title: Create a Simple JSX Element
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301390
 ---
@@ -52,7 +51,7 @@ const JSX = <div></div>;
 ### After Test
 <div id='jsx-teardown'>
 
-```js
+```jsx
 ReactDOM.render(JSX, document.getElementById('root'))
 ```
 
@@ -64,7 +63,7 @@ ReactDOM.render(JSX, document.getElementById('root'))
 <section id='solution'>
 
 
-```js
+```jsx
 const JSX = <h1>Hello JSX!</h1>;
 ```
 

@@ -1,7 +1,6 @@
 ---
 id: 5900f4ab1000cf542c50ffbe
 challengeType: 5
-isHidden: false
 title: 'Problem 319: Bounded Sequences'
 forumTopicId: 301975
 ---
@@ -50,7 +49,7 @@ tests:
 
 ```js
 function euler319() {
-  // Good luck!
+
   return true;
 }
 

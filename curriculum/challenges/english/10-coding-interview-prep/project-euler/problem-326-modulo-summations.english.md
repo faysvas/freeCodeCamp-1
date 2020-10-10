@@ -1,7 +1,6 @@
 ---
 id: 5900f4b21000cf542c50ffc5
 challengeType: 5
-isHidden: false
 title: 'Problem 326: Modulo Summations'
 forumTopicId: 301983
 ---
@@ -48,7 +47,7 @@ tests:
 
 ```js
 function euler326() {
-  // Good luck!
+
   return true;
 }
 

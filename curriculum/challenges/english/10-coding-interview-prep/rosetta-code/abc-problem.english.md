@@ -2,7 +2,6 @@
 title: ABC Problem
 id: 594810f028c0303b75339acc
 challengeType: 5
-isHidden: false
 forumTopicId: 302220
 ---
 
@@ -76,7 +75,7 @@ tests:
 
 ```js
 function canMakeWord(word) {
-  // Good luck!
+
 }
 ```
 

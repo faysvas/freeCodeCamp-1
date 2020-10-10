@@ -1,7 +1,6 @@
 ---
 id: 5900f4861000cf542c50ff98
 challengeType: 5
-isHidden: false
 title: 'Problem 281: Pizza Toppings'
 forumTopicId: 301932
 ---
@@ -43,7 +42,7 @@ tests:
 
 ```js
 function euler281() {
-  // Good luck!
+
   return true;
 }
 

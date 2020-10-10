@@ -1,7 +1,6 @@
 ---
 id: 5900f3761000cf542c50fe89
 challengeType: 5
-isHidden: false
 title: 'Problem 10: Summation of primes'
 forumTopicId: 301723
 ---
@@ -47,7 +46,7 @@ tests:
 
 ```js
 function primeSummation(n) {
-  // Good luck!
+
   return true;
 }
 
@@ -62,7 +61,6 @@ primeSummation(2000000);
 <section id='solution'>
 
 ```js
-//noprotect
 function primeSummation(n) {
   if (n < 3) { return 0 };
   let nums = [0, 0, 2];

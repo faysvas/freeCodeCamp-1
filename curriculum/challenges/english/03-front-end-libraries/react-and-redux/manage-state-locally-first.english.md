@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d4036142
 title: Manage State Locally First
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301431
 ---
@@ -57,15 +56,15 @@ class DisplayMessages extends React.Component {
       messages: []
     }
   }
-  // add handleChange() and submitMessage() methods here
+  // Add handleChange() and submitMessage() methods here
 
   render() {
     return (
       <div>
         <h2>Type in a new Message:</h2>
-        { /* render an input, button, and ul here */ }
+        { /* Render an input, button, and ul below this line */ }
 
-        { /* change code above this line */ }
+        { /* Change code above this line */ }
       </div>
     );
   }
@@ -78,7 +77,7 @@ class DisplayMessages extends React.Component {
 ### After Test
 <div id='jsx-teardown'>
 
-```js
+```jsx
 ReactDOM.render(<DisplayMessages />, document.getElementById('root'))
 ```
 
@@ -90,7 +89,7 @@ ReactDOM.render(<DisplayMessages />, document.getElementById('root'))
 <section id='solution'>
 
 
-```js
+```jsx
 class DisplayMessages extends React.Component {
   constructor(props) {
     super(props);

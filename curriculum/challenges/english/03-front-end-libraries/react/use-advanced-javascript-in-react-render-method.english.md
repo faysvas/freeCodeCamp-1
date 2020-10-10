@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d4036183
 title: Use Advanced JavaScript in React Render Method
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301415
 ---
@@ -176,7 +175,7 @@ class MagicEightBall extends React.Component {
       'Outlook not so good',
       'Very doubtful'
     ];
-    const answer = 'change me!'; // << change code here
+    const answer = 'change me!'; // Change this line
     return (
       <div>
         <input
@@ -190,9 +189,9 @@ class MagicEightBall extends React.Component {
         <br />
         <h3>Answer:</h3>
         <p>
-          {/* change code below this line */}
+          {/* Change code below this line */}
 
-          {/* change code above this line */}
+          {/* Change code above this line */}
         </p>
       </div>
     );
@@ -206,7 +205,7 @@ class MagicEightBall extends React.Component {
 
 <div id='jsx-teardown'>
 
-```js
+```jsx
 var possibleAnswers = [
   'It is certain',
   'It is decidedly so',
@@ -240,7 +239,7 @@ ReactDOM.render(<MagicEightBall />, document.getElementById('root'));
 
 <section id='solution'>
 
-```js
+```jsx
 const inputStyle = {
   width: 235,
   margin: 5

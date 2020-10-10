@@ -1,7 +1,6 @@
 ---
 id: 5900f4ca1000cf542c50ffdc
 challengeType: 5
-isHidden: false
 title: 'Problem 349: Langton''s ant'
 forumTopicId: 302008
 ---
@@ -40,7 +39,7 @@ tests:
 
 ```js
 function euler349() {
-  // Good luck!
+
   return true;
 }
 

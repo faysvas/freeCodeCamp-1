@@ -1,7 +1,6 @@
 ---
 id: 5900f3ee1000cf542c50ff00
 challengeType: 5
-isHidden: false
 title: 'Problem 130: Composites with prime repunit property'
 forumTopicId: 301758
 ---
@@ -39,7 +38,7 @@ tests:
 
 ```js
 function euler130() {
-  // Good luck!
+
   return true;
 }
 

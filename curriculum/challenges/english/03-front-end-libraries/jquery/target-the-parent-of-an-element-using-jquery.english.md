@@ -2,7 +2,6 @@
 id: bad87fee1348bd9aed308826
 title: Target the Parent of an Element Using jQuery
 challengeType: 6
-isHidden: false
 forumTopicId: 18321
 ---
 
@@ -56,7 +55,7 @@ tests:
   });
 </script>
 
-<!-- Only change code above this line. -->
+<!-- Only change code above this line -->
 
 <body>
   <div class="container-fluid">
@@ -104,7 +103,7 @@ tests:
   });
 </script>
 
-<!-- Only change code above this line. -->
+<!-- Only change code above this line -->
 
 <body>
   <div class="container-fluid">

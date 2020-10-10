@@ -2,7 +2,6 @@
 title: Top rank per group
 id: 595011cba5a81735713873bd
 challengeType: 5
-isHidden: false
 forumTopicId: 302339
 ---
 
@@ -79,7 +78,7 @@ tests:
 
 ```js
 function topRankPerGroup(n, data, groupName, rankName) {
-  // Good luck!
+
   return true;
 }
 ```

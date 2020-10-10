@@ -1,7 +1,6 @@
 ---
 id: 5900f4461000cf542c50ff59
 challengeType: 5
-isHidden: false
 title: 'Problem 218: Perfect right-angled triangles'
 forumTopicId: 301860
 ---
@@ -49,7 +48,7 @@ tests:
 
 ```js
 function euler218() {
-  // Good luck!
+
   return true;
 }
 

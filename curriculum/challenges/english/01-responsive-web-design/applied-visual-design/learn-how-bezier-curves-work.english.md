@@ -2,7 +2,6 @@
 id: 587d78a9367417b2b2512ae8
 title: Learn How Bezier Curves Work
 challengeType: 0
-isHidden: false
 videoUrl: 'https://scrimba.com/c/c9bDrs8'
 forumTopicId: 301058
 ---
@@ -29,7 +28,7 @@ tests:
   - text: The value of the <code>animation-timing-function</code> property for the element with the id <code>ball1</code> should be the linear-equivalent cubic-bezier function.
     testString: assert($('#ball1').css('animation-timing-function') == 'cubic-bezier(0.25, 0.25, 0.75, 0.75)');
   - text: The value of the <code>animation-timing-function</code> property for the element with the id <code>ball2</code> should not change.
-    testString: const ball2Animation = $('#ball2').css('animation-timing-function').replace(/\s/g, ''); assert(ball2Animation == 'ease-out' || ball2Animation == 'cubic-bezier(0,0,0.58,1)');
+    testString: const ball2Animation = __helpers.removeWhiteSpace($('#ball2').css('animation-timing-function')); assert(ball2Animation == 'ease-out' || ball2Animation == 'cubic-bezier(0,0,0.58,1)');
 
 ```
 

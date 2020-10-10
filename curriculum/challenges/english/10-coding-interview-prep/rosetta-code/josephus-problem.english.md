@@ -2,7 +2,6 @@
 title: Josephus problem
 id: 5a23c84252665b21eecc7ec5
 challengeType: 5
-isHidden: false
 forumTopicId: 302294
 ---
 
@@ -54,7 +53,7 @@ tests:
 
 ```js
 function josephus(init, kill) {
-  // Good luck!
+
 }
 ```
 

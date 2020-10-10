@@ -1,7 +1,6 @@
 ---
 id: 5900f4071000cf542c50ff19
 challengeType: 5
-isHidden: false
 title: 'Problem 154: Exploring Pascal''s pyramid'
 forumTopicId: 301785
 ---
@@ -42,7 +41,7 @@ tests:
 
 ```js
 function euler154() {
-  // Good luck!
+
   return true;
 }
 

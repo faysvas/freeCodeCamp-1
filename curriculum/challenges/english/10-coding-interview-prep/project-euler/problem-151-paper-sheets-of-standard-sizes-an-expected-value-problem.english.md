@@ -1,7 +1,6 @@
 ---
 id: 5900f4031000cf542c50ff16
 challengeType: 5
-isHidden: false
 title: 'Problem 151: Paper sheets of standard sizes: an expected-value problem'
 forumTopicId: 301782
 ---
@@ -42,7 +41,7 @@ tests:
 
 ```js
 function euler151() {
-  // Good luck!
+
   return true;
 }
 

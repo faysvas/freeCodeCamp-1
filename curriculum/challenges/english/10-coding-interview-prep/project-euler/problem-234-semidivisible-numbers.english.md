@@ -1,7 +1,6 @@
 ---
 id: 5900f4571000cf542c50ff69
 challengeType: 5
-isHidden: false
 title: 'Problem 234: Semidivisible numbers'
 forumTopicId: 301878
 ---
@@ -42,7 +41,7 @@ tests:
 
 ```js
 function euler234() {
-  // Good luck!
+
   return true;
 }
 

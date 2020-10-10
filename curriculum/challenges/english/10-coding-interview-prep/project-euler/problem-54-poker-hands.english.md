@@ -1,7 +1,6 @@
 ---
 id: 5900f3a21000cf542c50feb5
 challengeType: 5
-isHidden: false
 title: 'Problem 54: Poker hands'
 forumTopicId: 302165
 ---
@@ -71,7 +70,7 @@ tests:
 
 ```js
 function pokerHands(arr) {
-  // Good luck!
+
   return true;
 }
 

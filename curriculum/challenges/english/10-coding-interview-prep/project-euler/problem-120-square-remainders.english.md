@@ -1,7 +1,6 @@
 ---
 id: 5900f3e41000cf542c50fef7
 challengeType: 5
-isHidden: false
 title: 'Problem 120: Square remainders'
 forumTopicId: 301747
 ---
@@ -37,7 +36,7 @@ tests:
 
 ```js
 function euler120() {
-  // Good luck!
+
   return true;
 }
 

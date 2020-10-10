@@ -2,7 +2,6 @@
 id: 587d825c367417b2b2512c8f
 title: Implement Merge Sort
 challengeType: 1
-isHidden: false
 forumTopicId: 301614
 ---
 
@@ -47,10 +46,9 @@ tests:
 
 ```js
 function mergeSort(array) {
-  // change code below this line
-
-  // change code above this line
+  // Only change code below this line
   return array;
+  // Only change code above this line
 }
 
 mergeSort([1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 1, 234, 92]);

@@ -1,7 +1,6 @@
 ---
 id: 5900f42f1000cf542c50ff40
 challengeType: 5
-isHidden: false
 title: 'Problem 194: Coloured Configurations'
 forumTopicId: 301832
 ---
@@ -45,7 +44,7 @@ tests:
 
 ```js
 function euler194() {
-  // Good luck!
+
   return true;
 }
 

@@ -1,7 +1,6 @@
 ---
 id: 5900f3731000cf542c50fe86
 challengeType: 5
-isHidden: false
 title: 'Problem 7: 10001st prime'
 forumTopicId: 302182
 ---
@@ -49,7 +48,7 @@ tests:
 
 ```js
 function nthPrime(n) {
-  // Good luck!
+
   return true;
 }
 

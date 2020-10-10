@@ -1,7 +1,6 @@
 ---
 id: 5900f5081000cf542c510019
 challengeType: 5
-isHidden: false
 title: 'Problem 411: Uphill paths'
 forumTopicId: 302080
 ---
@@ -47,7 +46,7 @@ tests:
 
 ```js
 function euler411() {
-  // Good luck!
+
   return true;
 }
 

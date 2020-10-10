@@ -1,7 +1,6 @@
 ---
 id: 5900f3bc1000cf542c50fecf
 challengeType: 5
-isHidden: false
 title: 'Problem 80: Square root digital expansion'
 forumTopicId: 302194
 ---
@@ -43,7 +42,7 @@ tests:
 
 ```js
 function sqrtDigitalExpansion() {
-  // Good luck!
+
   return true;
 }
 

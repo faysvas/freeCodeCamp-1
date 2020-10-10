@@ -2,7 +2,6 @@
 id: cf1111c1c11feddfaeb4bdef
 title: Subtract One Number from Another with JavaScript
 challengeType: 1
-isHidden: false
 videoUrl: 'https://scrimba.com/c/cP3yQtk'
 forumTopicId: 18314
 ---
@@ -34,7 +33,7 @@ tests:
   - text: The variable <code>difference</code> should be equal to 12.
     testString: assert(difference === 12);
   - text: You should only subtract one number from 45.
-    testString: assert(/difference=45-33;?/.test(code.replace(/\s/g, '')));
+    testString: assert(/difference=45-33;?/.test(__helpers.removeWhiteSpace(code)));
 ```
 
 </section>

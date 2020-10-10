@@ -1,7 +1,6 @@
 ---
 id: 5900f40c1000cf542c50ff1e
 challengeType: 5
-isHidden: false
 title: 'Problem 159: Digital root sums of factorisations'
 forumTopicId: 301790
 ---
@@ -60,7 +59,7 @@ tests:
 
 ```js
 function euler159() {
-  // Good luck!
+
   return true;
 }
 

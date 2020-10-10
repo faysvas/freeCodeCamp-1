@@ -1,7 +1,6 @@
 ---
 id: 5900f44e1000cf542c50ff60
 challengeType: 5
-isHidden: false
 title: 'Problem 225: Tribonacci non-divisors'
 forumTopicId: 301868
 ---
@@ -41,7 +40,7 @@ tests:
 
 ```js
 function euler225() {
-  // Good luck!
+
   return true;
 }
 

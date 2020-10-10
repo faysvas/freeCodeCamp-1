@@ -1,7 +1,6 @@
 ---
 id: 5900f3ef1000cf542c50ff02
 challengeType: 5
-isHidden: false
 title: 'Problem 131: Prime cube partnership'
 forumTopicId: 301759
 ---
@@ -38,7 +37,7 @@ tests:
 
 ```js
 function euler131() {
-  // Good luck!
+
   return true;
 }
 

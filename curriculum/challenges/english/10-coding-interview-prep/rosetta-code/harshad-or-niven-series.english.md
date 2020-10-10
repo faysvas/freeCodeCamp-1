@@ -2,7 +2,6 @@
 title: Harshad or Niven series
 id: 595668ca4cfe1af2fb9818d4
 challengeType: 5
-isHidden: false
 forumTopicId: 302281
 ---
 
@@ -44,7 +43,7 @@ function isHarshadOrNiven() {
     firstTwenty: [],
     firstOver1000: undefined
   };
-  // Change after this line
+  // Only change code below this line
 
   return res;
 }

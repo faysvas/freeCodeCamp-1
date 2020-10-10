@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d4036179
 title: Create a Controlled Form
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301384
 ---
@@ -125,22 +124,22 @@ class MyForm extends React.Component {
     });
   }
   handleSubmit(event) {
-    // change code below this line
+    // Change code below this line
     
-    // change code above this line
+    // Change code above this line
   }
   render() {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          {/* change code below this line */}
+          {/* Change code below this line */}
 
-          {/* change code above this line */}
+          {/* Change code above this line */}
           <button type='submit'>Submit!</button>
         </form>
-        {/* change code below this line */}
+        {/* Change code below this line */}
 
-        {/* change code above this line */}
+        {/* Change code above this line */}
       </div>
     );
   }
@@ -153,7 +152,7 @@ class MyForm extends React.Component {
 
 <div id='jsx-teardown'>
 
-```js
+```jsx
 ReactDOM.render(<MyForm />, document.getElementById('root'));
 ```
 
@@ -165,7 +164,7 @@ ReactDOM.render(<MyForm />, document.getElementById('root'));
 
 <section id='solution'>
 
-```js
+```jsx
 class MyForm extends React.Component {
   constructor(props) {
     super(props);

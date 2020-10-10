@@ -2,7 +2,6 @@
 id: 587d7fab367417b2b2512bda
 title: Create a Linear Scale with D3
 challengeType: 6
-isHidden: false
 forumTopicId: 301483
 ---
 
@@ -49,7 +48,7 @@ tests:
     // Add your code below this line
 
     const scale = undefined; // Create the scale here
-    const output = scale(); // Call the scale with an argument here
+    const output = scale(); // Call scale with an argument here
 
     // Add your code above this line
 

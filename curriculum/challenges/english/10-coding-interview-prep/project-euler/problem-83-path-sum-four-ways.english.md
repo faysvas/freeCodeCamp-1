@@ -1,7 +1,6 @@
 ---
 id: 5900f3bf1000cf542c50fed2
 challengeType: 5
-isHidden: false
 title: 'Problem 83: Path sum: four ways'
 forumTopicId: 302197
 ---
@@ -55,7 +54,7 @@ tests:
 
 ```js
 function pathSumFourWays(arr) {
-  // Good luck!
+
   return true;
 }
 

@@ -1,7 +1,6 @@
 ---
 id: 5900f3901000cf542c50fea3
 challengeType: 5
-isHidden: false
 title: 'Problem 36: Double-base palindromes'
 forumTopicId: 302020
 ---
@@ -49,7 +48,7 @@ tests:
 
 ```js
 function doubleBasePalindromes(n) {
-  // Good luck!
+
   return n;
 }
 

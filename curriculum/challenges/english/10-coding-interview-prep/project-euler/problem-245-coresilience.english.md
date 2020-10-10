@@ -1,7 +1,6 @@
 ---
 id: 5900f4621000cf542c50ff74
 challengeType: 5
-isHidden: false
 title: 'Problem 245: Coresilience'
 forumTopicId: 301892
 ---
@@ -45,7 +44,7 @@ tests:
 
 ```js
 function euler245() {
-  // Good luck!
+
   return true;
 }
 

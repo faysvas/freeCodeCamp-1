@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d403616b
 title: Use Default Props
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301418
 ---
@@ -44,7 +43,7 @@ const ShoppingCart = (props) => {
     </div>
   )
 };
-// change code below this line
+// Change code below this line
 
 ```
 
@@ -54,7 +53,7 @@ const ShoppingCart = (props) => {
 ### After Test
 <div id='jsx-teardown'>
 
-```js
+```jsx
 ReactDOM.render(<ShoppingCart />, document.getElementById('root'))
 ```
 
@@ -66,7 +65,7 @@ ReactDOM.render(<ShoppingCart />, document.getElementById('root'))
 <section id='solution'>
 
 
-```js
+```jsx
 const ShoppingCart = (props) => {
   return (
     <div>
@@ -75,7 +74,7 @@ const ShoppingCart = (props) => {
   )
 };
 
-// change code below this line
+// Change code below this line
 ShoppingCart.defaultProps = {
   items: 0
 }

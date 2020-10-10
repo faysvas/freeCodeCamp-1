@@ -1,7 +1,6 @@
 ---
 id: 5900f3fd1000cf542c50ff10
 challengeType: 5
-isHidden: false
 title: 'Problem 145: How many reversible numbers are there below one-billion?'
 forumTopicId: 301774
 ---
@@ -39,7 +38,7 @@ tests:
 
 ```js
 function euler145() {
-  // Good luck!
+
   return true;
 }
 

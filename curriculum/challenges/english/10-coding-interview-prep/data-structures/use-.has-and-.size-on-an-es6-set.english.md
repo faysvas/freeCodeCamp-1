@@ -2,7 +2,6 @@
 id: 587d8255367417b2b2512c72
 title: Use .has and .size on an ES6 Set
 challengeType: 1
-isHidden: false
 forumTopicId: 301717
 ---
 
@@ -41,13 +40,11 @@ tests:
 ```js
 function checkSet(arrToBeSet, checkValue){
 
-   // change code below this line
+   // Only change code below this line
 
-   // change code above this line
+   // Only change code above this line
 
 }
-
-checkSet([ 1, 2, 3], 2); // Should return [ true, 3 ]
 ```
 
 </div>

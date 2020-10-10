@@ -1,7 +1,6 @@
 ---
 id: 5900f53d1000cf542c51004f
 challengeType: 5
-isHidden: false
 title: 'Problem 464: Möbius function and intervals'
 forumTopicId: 302139
 ---
@@ -54,7 +53,7 @@ tests:
 
 ```js
 function euler464() {
-  // Good luck!
+
   return true;
 }
 

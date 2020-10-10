@@ -1,7 +1,6 @@
 ---
 id: 5900f5461000cf542c510058
 challengeType: 5
-isHidden: false
 title: 'Problem 473: Phigital number base'
 forumTopicId: 302150
 ---
@@ -52,7 +51,7 @@ tests:
 
 ```js
 function euler473() {
-  // Good luck!
+
   return true;
 }
 

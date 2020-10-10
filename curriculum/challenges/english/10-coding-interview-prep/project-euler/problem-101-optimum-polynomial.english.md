@@ -1,7 +1,6 @@
 ---
 id: 5900f3d21000cf542c50fee4
 challengeType: 5
-isHidden: false
 title: 'Problem 101: Optimum polynomial'
 forumTopicId: 301725
 ---
@@ -55,7 +54,7 @@ tests:
 
 ```js
 function euler101() {
-  // Good luck!
+
   return true;
 }
 

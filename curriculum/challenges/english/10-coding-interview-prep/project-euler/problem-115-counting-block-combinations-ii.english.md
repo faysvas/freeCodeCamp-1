@@ -1,7 +1,6 @@
 ---
 id: 5900f3df1000cf542c50fef1
 challengeType: 5
-isHidden: false
 title: 'Problem 115: Counting block combinations II'
 forumTopicId: 301741
 ---
@@ -41,7 +40,7 @@ tests:
 
 ```js
 function euler115() {
-  // Good luck!
+
   return true;
 }
 

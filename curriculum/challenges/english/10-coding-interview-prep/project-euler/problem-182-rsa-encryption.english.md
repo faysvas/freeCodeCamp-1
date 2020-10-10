@@ -1,7 +1,6 @@
 ---
 id: 5900f4231000cf542c50ff35
 challengeType: 5
-isHidden: false
 title: 'Problem 182: RSA encryption'
 forumTopicId: 301818
 ---
@@ -49,7 +48,7 @@ tests:
 
 ```js
 function euler182() {
-  // Good luck!
+
   return true;
 }
 

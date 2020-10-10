@@ -1,7 +1,6 @@
 ---
 id: 5900f4761000cf542c50ff88
 challengeType: 5
-isHidden: false
 title: 'Problem 265: Binary Circles'
 forumTopicId: 301914
 ---
@@ -48,7 +47,7 @@ tests:
 
 ```js
 function euler265() {
-  // Good luck!
+
   return true;
 }
 

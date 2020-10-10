@@ -16,11 +16,11 @@ const {
   NEWS_LOCATION: news,
   LOCALE: locale,
   STRIPE_PUBLIC_KEY: stripePublicKey,
-  SERVICEBOT_ID: servicebotId,
   ALGOLIA_APP_ID: algoliaAppId,
   ALGOLIA_API_KEY: algoliaAPIKey,
   PAYPAL_CLIENT_ID: paypalClientId,
-  DEPLOYMENT_ENV: deploymentEnv
+  DEPLOYMENT_ENV: deploymentEnv,
+  SHOW_UPCOMING_CHANGES: showUpcomingChanges
 } = process.env;
 
 const locations = {
@@ -38,10 +38,6 @@ module.exports = Object.assign(locations, {
     !stripePublicKey || stripePublicKey === 'pk_from_stripe_dashboard'
       ? null
       : stripePublicKey,
-  servicebotId:
-    !servicebotId || servicebotId === 'servicebot_id_from_servicebot_dashboard'
-      ? null
-      : servicebotId,
   algoliaAppId:
     !algoliaAppId || algoliaAppId === 'Algolia app id from dashboard'
       ? null
@@ -53,5 +49,6 @@ module.exports = Object.assign(locations, {
   paypalClientId:
     !paypalClientId || paypalClientId === 'id_from_paypal_dashboard'
       ? null
-      : paypalClientId
+      : paypalClientId,
+  showUpcomingChanges: showUpcomingChanges === 'true'
 });

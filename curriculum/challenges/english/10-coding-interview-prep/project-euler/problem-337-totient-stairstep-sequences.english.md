@@ -1,7 +1,6 @@
 ---
 id: 5900f4be1000cf542c50ffd0
 challengeType: 5
-isHidden: false
 title: 'Problem 337: Totient Stairstep Sequences'
 forumTopicId: 301995
 ---
@@ -44,7 +43,7 @@ tests:
 
 ```js
 function euler337() {
-  // Good luck!
+
   return true;
 }
 

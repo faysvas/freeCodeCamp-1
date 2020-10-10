@@ -2,7 +2,6 @@
 id: 5a23c84252665b21eecc7eca
 title: Kaprekar numbers
 challengeType: 5
-isHidden: false
 forumTopicId: 302296
 ---
 
@@ -63,7 +62,7 @@ tests:
 
 ```js
 function isKaprekar(n, bs) {
-  // Good luck!
+
 }
 ```
 

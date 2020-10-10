@@ -2,7 +2,6 @@
 id: 5a24bbe0dba28a8d3cbd4c5d
 title: Create a Complex JSX Element
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301382
 ---
@@ -67,7 +66,7 @@ tests:
 <div id='jsx-seed'>
 
 ```jsx
-// write your code here
+
 
 ```
 
@@ -77,7 +76,7 @@ tests:
 ### After Test
 <div id='jsx-teardown'>
 
-```js
+```jsx
 ReactDOM.render(JSX, document.getElementById('root'))
 ```
 
@@ -89,7 +88,7 @@ ReactDOM.render(JSX, document.getElementById('root'))
 <section id='solution'>
 
 
-```js
+```jsx
 const JSX = (
 <div>
   <h1>Hello JSX!</h1>

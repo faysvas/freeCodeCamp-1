@@ -1,7 +1,6 @@
 ---
 id: 5900f4291000cf542c50ff3c
 challengeType: 5
-isHidden: false
 title: 'Problem 189: Tri-colouring a triangular grid'
 forumTopicId: 301825
 ---
@@ -47,7 +46,7 @@ tests:
 
 ```js
 function euler189() {
-  // Good luck!
+
   return true;
 }
 

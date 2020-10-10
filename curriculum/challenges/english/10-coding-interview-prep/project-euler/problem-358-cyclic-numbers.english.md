@@ -1,7 +1,6 @@
 ---
 id: 5900f4d21000cf542c50ffe5
 challengeType: 5
-isHidden: false
 title: 'Problem 358: Cyclic numbers'
 forumTopicId: 302018
 ---
@@ -63,7 +62,7 @@ tests:
 
 ```js
 function euler358() {
-  // Good luck!
+
   return true;
 }
 

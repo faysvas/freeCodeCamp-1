@@ -1,7 +1,6 @@
 ---
 id: 5900f4481000cf542c50ff5b
 challengeType: 5
-isHidden: false
 title: 'Problem 220: Heighway Dragon'
 forumTopicId: 301863
 ---
@@ -50,7 +49,7 @@ tests:
 
 ```js
 function euler220() {
-  // Good luck!
+
   return true;
 }
 

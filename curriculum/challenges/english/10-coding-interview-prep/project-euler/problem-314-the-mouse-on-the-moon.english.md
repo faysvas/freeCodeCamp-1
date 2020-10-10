@@ -1,7 +1,6 @@
 ---
 id: 5900f4a71000cf542c50ffb9
 challengeType: 5
-isHidden: false
 title: 'Problem 314: The Mouse on the Moon'
 forumTopicId: 301970
 ---
@@ -52,7 +51,7 @@ tests:
 
 ```js
 function euler314() {
-  // Good luck!
+
   return true;
 }
 

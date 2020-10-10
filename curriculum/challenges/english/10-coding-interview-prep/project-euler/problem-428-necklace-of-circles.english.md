@@ -1,7 +1,6 @@
 ---
 id: 5900f5191000cf542c51002b
 challengeType: 5
-isHidden: false
 title: 'Problem 428: Necklace of Circles'
 forumTopicId: 302098
 ---
@@ -48,7 +47,7 @@ tests:
 
 ```js
 function necklace(n) {
-  // Good luck!
+
   return true;
 }
 

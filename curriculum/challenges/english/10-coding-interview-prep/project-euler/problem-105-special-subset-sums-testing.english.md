@@ -1,7 +1,6 @@
 ---
 id: 5900f3d61000cf542c50fee8
 challengeType: 5
-isHidden: false
 title: 'Problem 105: Special subset sums: testing'
 forumTopicId: 301729
 ---
@@ -40,7 +39,7 @@ tests:
 
 ```js
 function euler105() {
-  // Good luck!
+
   return true;
 }
 

@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d403614d
 title: Define a Redux Action
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301440
 ---
@@ -35,9 +34,9 @@ tests:
 ## Challenge Seed
 <section id='challengeSeed'>
 
-<div id='jsx-seed'>
+<div id='js-seed'>
 
-```jsx
+```js
 // Define an action here:
 
 ```

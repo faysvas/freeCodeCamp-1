@@ -2,7 +2,6 @@
 id: bad87fee1348bd9aedf08828
 title: Create an Ordered List
 challengeType: 0
-isHidden: false
 videoUrl: 'https://scrimba.com/p/pVMPUv/cQ3B8TM'
 forumTopicId: 16824
 ---
@@ -53,9 +52,9 @@ tests:
   - text: Your <code>li</code> element should have a closing tag.
     testString: assert(code.match(/<\/li>/g) && code.match(/<li>/g) && code.match(/<\/li>/g).length === code.match(/<li>/g).length);
   - text: The <code>li</code> elements in your unordered list should not be empty.
-    testString: $('ul li').each((i, val) => assert(val.textContent.replace(/\s/g, '')));
+    testString: $('ul li').each((i, val) => assert(__helpers.removeWhiteSpace(val.textContent)));
   - text: The <code>li</code> elements in your ordered list should not be empty.
-    testString: $('ol li').each((i, val) => assert(!!val.textContent.replace(/\s/g, '')));
+    testString: $('ol li').each((i, val) => assert(!!__helpers.removeWhiteSpace(val.textContent)));
 
 ```
 

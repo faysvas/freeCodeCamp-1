@@ -2,7 +2,6 @@
 title: Count the coins
 id: 59713bd26bdeb8a594fb9413
 challengeType: 5
-isHidden: false
 forumTopicId: 302238
 ---
 
@@ -52,7 +51,7 @@ tests:
 
 ```js
 function countCoins() {
-  // Good luck!
+
   return true;
 }
 ```

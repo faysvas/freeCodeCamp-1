@@ -1,7 +1,6 @@
 ---
 id: 5900f4bd1000cf542c50ffce
 challengeType: 5
-isHidden: false
 title: 'Problem 335: Gathering the beans'
 forumTopicId: 301993
 ---
@@ -43,7 +42,7 @@ tests:
 
 ```js
 function euler335() {
-  // Good luck!
+
   return true;
 }
 

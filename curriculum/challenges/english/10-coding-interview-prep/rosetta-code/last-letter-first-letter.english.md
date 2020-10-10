@@ -2,7 +2,6 @@
 id: 5e4ce2b6ac708cc68c1df25e
 title: Last letter-first letter
 challengeType: 5
-isHidden: false
 forumTopicId: 385256
 ---
 
@@ -54,7 +53,7 @@ tests:
 
 ```js
 function findLongestChain(items) {
-  // Good luck!
+
 }
 ```
 

@@ -2,7 +2,6 @@
 id: 587d8254367417b2b2512c6f
 title: Perform a Subset Check on Two Sets of Data
 challengeType: 1
-isHidden: false
 forumTopicId: 301707
 ---
 
@@ -50,15 +49,15 @@ class Set {
     this.dictionary = {};
     this.length = 0;
   }
-  // this method will check for the presence of an element and return true or false
+  // This method will check for the presence of an element and return true or false
   has(element) {
     return this.dictionary[element] !== undefined;
   }
-  // this method will return all the values in the set
+  // This method will return all the values in the set
   values() {
     return Object.keys(this.dictionary);
   }
-  // this method will add an element to the set
+  // This method will add an element to the set
   add(element) {
     if (!this.has(element)) {
       this.dictionary[element] = true;
@@ -68,7 +67,7 @@ class Set {
 
     return false;
   }
-  // this method will remove an element from a set
+  // This method will remove an element from a set
   remove(element) {
     if (this.has(element)) {
       delete this.dictionary[element];
@@ -78,11 +77,11 @@ class Set {
 
     return false;
   }
-  // this method will return the size of the set
+  // This method will return the size of the set
   size() {
     return this.length;
   }
-  // This is our union method from that lesson
+  // This is our union method 
   union(set) {
     const newSet = new Set();
     this.values().forEach(value => {
@@ -94,7 +93,7 @@ class Set {
 
     return newSet;
   }
-  // This is our intersection method from that lesson
+  // This is our intersection method
   intersection(set) {
     const newSet = new Set();
 
@@ -116,7 +115,7 @@ class Set {
 
     return newSet;
   }
-  // This is our difference method from that lesson
+
   difference(set) {
     const newSet = new Set();
 
@@ -128,8 +127,9 @@ class Set {
 
     return newSet;
   }
-  // change code below this line
-  // change code above this line
+  // Only change code below this line
+  
+  // Only change code above this line
 }
 ```
 

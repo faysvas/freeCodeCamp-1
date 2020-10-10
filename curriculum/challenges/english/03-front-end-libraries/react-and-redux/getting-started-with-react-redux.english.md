@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d4036141
 title: Getting Started with React Redux
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301430
 ---
@@ -27,7 +26,7 @@ tests:
   - text: The <code>DisplayMessages</code> component should render an empty <code>div</code> element.
     testString: assert((function() { const mockedComponent = Enzyme.mount(React.createElement(DisplayMessages)); return mockedComponent.find('div').text() === '' })());
   - text: The <code>DisplayMessages</code> constructor should be called properly with <code>super</code>, passing in <code>props</code>.
-    testString: getUserInput => assert((function() { const noWhiteSpace = getUserInput('index').replace(/\s/g,''); return noWhiteSpace.includes('constructor(props)') && noWhiteSpace.includes('super(props'); })());
+    testString: getUserInput => assert((function() { const noWhiteSpace = __helpers.removeWhiteSpace(getUserInput('index')); return noWhiteSpace.includes('constructor(props)') && noWhiteSpace.includes('super(props'); })());
   - text: 'The <code>DisplayMessages</code> component should have an initial state equal to <code>{input: "", messages: []}</code>.'
     testString: "assert((function() { const mockedComponent = Enzyme.mount(React.createElement(DisplayMessages)); const initialState = mockedComponent.state(); return typeof initialState === 'object' && initialState.input === '' && Array.isArray(initialState.messages) && initialState.messages.length === 0; })());"
 
@@ -42,9 +41,9 @@ tests:
 
 ```jsx
 class DisplayMessages extends React.Component {
-  // change code below this line
+  // Change code below this line
 
-  // change code above this line
+  // Change code above this line
   render() {
     return <div />
   }
@@ -57,7 +56,7 @@ class DisplayMessages extends React.Component {
 ### After Test
 <div id='jsx-teardown'>
 
-```js
+```jsx
 ReactDOM.render(<DisplayMessages />, document.getElementById('root'))
 ```
 
@@ -69,7 +68,7 @@ ReactDOM.render(<DisplayMessages />, document.getElementById('root'))
 <section id='solution'>
 
 
-```js
+```jsx
 class DisplayMessages extends React.Component {
   constructor(props) {
     super(props);

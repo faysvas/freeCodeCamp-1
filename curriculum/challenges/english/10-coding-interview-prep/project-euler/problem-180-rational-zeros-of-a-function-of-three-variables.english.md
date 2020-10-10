@@ -1,7 +1,6 @@
 ---
 id: 5900f4201000cf542c50ff33
 challengeType: 5
-isHidden: false
 title: 'Problem 180: Rational zeros of a function of three variables'
 forumTopicId: 301816
 ---
@@ -43,7 +42,7 @@ tests:
 
 ```js
 function euler180() {
-  // Good luck!
+
   return true;
 }
 

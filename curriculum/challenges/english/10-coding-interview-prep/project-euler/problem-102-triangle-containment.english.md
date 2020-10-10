@@ -1,7 +1,6 @@
 ---
 id: 5900f3d21000cf542c50fee5
 challengeType: 5
-isHidden: false
 title: 'Problem 102: Triangle containment'
 forumTopicId: 301726
 ---
@@ -41,7 +40,7 @@ tests:
 
 ```js
 function euler102() {
-  // Good luck!
+
   return true;
 }
 

@@ -1,7 +1,6 @@
 ---
 id: 5900f4f31000cf542c510006
 challengeType: 5
-isHidden: false
 title: 'Problem 391: Hopping Game'
 forumTopicId: 302056
 ---
@@ -62,7 +61,7 @@ tests:
 
 ```js
 function euler391() {
-  // Good luck!
+
   return true;
 }
 

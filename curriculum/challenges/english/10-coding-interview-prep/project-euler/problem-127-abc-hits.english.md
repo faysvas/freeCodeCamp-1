@@ -1,7 +1,6 @@
 ---
 id: 5900f3ec1000cf542c50fefe
 challengeType: 5
-isHidden: false
 title: 'Problem 127: abc-hits'
 forumTopicId: 301754
 ---
@@ -47,7 +46,7 @@ tests:
 
 ```js
 function euler127() {
-  // Good luck!
+
   return true;
 }
 

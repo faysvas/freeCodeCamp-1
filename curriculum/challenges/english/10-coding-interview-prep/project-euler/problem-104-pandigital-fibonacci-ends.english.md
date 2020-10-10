@@ -1,7 +1,6 @@
 ---
 id: 5900f3d51000cf542c50fee6
 challengeType: 5
-isHidden: false
 title: 'Problem 104: Pandigital Fibonacci ends'
 forumTopicId: 301728
 ---
@@ -38,7 +37,7 @@ tests:
 
 ```js
 function euler104() {
-  // Good luck!
+
   return true;
 }
 

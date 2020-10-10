@@ -1,7 +1,6 @@
 ---
 id: 5900f37a1000cf542c50fe8d
 challengeType: 5
-isHidden: false
 title: 'Problem 14: Longest Collatz sequence'
 forumTopicId: 301768
 ---
@@ -63,7 +62,7 @@ tests:
 
 ```js
 function longestCollatzSequence(limit) {
-  // Good luck!
+
   return true;
 }
 

@@ -1,7 +1,6 @@
 ---
 id: 5900f4da1000cf542c50ffed
 challengeType: 5
-isHidden: false
 title: 'Problem 366: Stone Game III'
 forumTopicId: 302027
 ---
@@ -58,7 +57,7 @@ tests:
 
 ```js
 function euler366() {
-  // Good luck!
+
   return true;
 }
 

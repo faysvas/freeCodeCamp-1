@@ -2,7 +2,6 @@
 id: 587d825a367417b2b2512c87
 title: Create a Doubly Linked List
 challengeType: 1
-isHidden: false
 forumTopicId: 301626
 ---
 
@@ -57,8 +56,9 @@ var Node = function(data, prev) {
 var DoublyLinkedList = function() {
   this.head = null;
   this.tail = null;
-  // change code below this line
-  // change code above this line
+  // Only change code below this line
+  
+  // Only change code above this line
 };
 ```
 

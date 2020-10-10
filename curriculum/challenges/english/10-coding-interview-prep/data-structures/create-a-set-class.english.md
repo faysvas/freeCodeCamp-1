@@ -2,7 +2,6 @@
 id: 8d1323c8c441eddfaeb5bdef
 title: Create a Set Class
 challengeType: 1
-isHidden: false
 forumTopicId: 301632
 ---
 
@@ -83,20 +82,14 @@ class Set {
     return this.dictionary[element] !== undefined;
   }
 
-  // This method will return all the values in the set as an array
+  // This method will return all the values in the set
   values() {
     return Object.keys(this.dictionary);
   }
 
-  // change code below this line
+  // Only change code below this line
   
-  // write your add method here
-
-  // write your remove method here
-
-  // write your size method here
-
-  // change code above this line
+  // Only change code above this line
 }
 ```
 

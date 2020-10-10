@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d4036146
 title: Map Dispatch to Props
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301432
 ---
@@ -58,7 +57,7 @@ const addMessage = (message) => {
   }
 };
 
-// change code below this line
+// Change code below this line
 
 ```
 
@@ -72,7 +71,7 @@ const addMessage = (message) => {
 <section id='solution'>
 
 
-```js
+```jsx
 const addMessage = (message) => {
   return {
     type: 'ADD',
@@ -80,7 +79,7 @@ const addMessage = (message) => {
   }
 };
 
-// change code below this line
+// Change code below this line
 
 const mapDispatchToProps = (dispatch) => {
   return {

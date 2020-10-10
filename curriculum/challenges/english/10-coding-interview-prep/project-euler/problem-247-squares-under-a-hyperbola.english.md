@@ -1,7 +1,6 @@
 ---
 id: 5900f4641000cf542c50ff76
 challengeType: 5
-isHidden: false
 title: 'Problem 247: Squares under a hyperbola'
 forumTopicId: 301894
 ---
@@ -50,7 +49,7 @@ tests:
 
 ```js
 function euler247() {
-  // Good luck!
+
   return true;
 }
 

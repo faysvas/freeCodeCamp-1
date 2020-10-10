@@ -1,7 +1,6 @@
 ---
 id: 5900f4511000cf542c50ff63
 challengeType: 5
-isHidden: false
 title: 'Problem 228: Minkowski Sums'
 forumTopicId: 301871
 ---
@@ -58,7 +57,7 @@ tests:
 
 ```js
 function euler228() {
-  // Good luck!
+
   return true;
 }
 

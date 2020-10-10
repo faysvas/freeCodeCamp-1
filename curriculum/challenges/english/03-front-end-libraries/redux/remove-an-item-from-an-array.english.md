@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d403615a
 title: Remove an Item from an Array
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301447
 ---
@@ -36,13 +35,13 @@ tests:
 ## Challenge Seed
 <section id='challengeSeed'>
 
-<div id='jsx-seed'>
+<div id='js-seed'>
 
-```jsx
+```js
 const immutableReducer = (state = [0,1,2,3,4,5], action) => {
   switch(action.type) {
     case 'REMOVE_ITEM':
-      // don't mutate state here or the tests will fail
+      // Don't mutate state here or the tests will fail
       return
     default:
       return state;

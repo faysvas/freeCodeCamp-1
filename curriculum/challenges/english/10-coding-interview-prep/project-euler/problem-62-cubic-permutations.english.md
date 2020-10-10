@@ -1,7 +1,6 @@
 ---
 id: 5900f3aa1000cf542c50febd
 challengeType: 5
-isHidden: false
 title: 'Problem 62: Cubic permutations'
 forumTopicId: 302174
 ---
@@ -41,7 +40,7 @@ tests:
 
 ```js
 function cubicPermutations() {
-  // Good luck!
+
   return true;
 }
 

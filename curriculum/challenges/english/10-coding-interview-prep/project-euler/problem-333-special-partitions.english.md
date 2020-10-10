@@ -1,7 +1,6 @@
 ---
 id: 5900f4b91000cf542c50ffcc
 challengeType: 5
-isHidden: false
 title: 'Problem 333: Special partitions'
 forumTopicId: 301991
 ---
@@ -50,7 +49,7 @@ tests:
 
 ```js
 function euler333() {
-  // Good luck!
+
   return true;
 }
 

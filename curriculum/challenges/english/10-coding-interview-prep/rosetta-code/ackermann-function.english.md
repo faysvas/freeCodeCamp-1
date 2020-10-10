@@ -2,7 +2,6 @@
 title: Ackermann function
 id: 594810f028c0303b75339acf
 challengeType: 5
-isHidden: false
 forumTopicId: 302223
 ---
 
@@ -46,7 +45,7 @@ tests:
 
 ```js
 function ack(m, n) {
-  // Good luck!
+
 }
 ```
 

@@ -1,7 +1,6 @@
 ---
 id: 5900f50d1000cf542c51001f
 challengeType: 5
-isHidden: false
 title: 'Problem 417: Reciprocal cycles II'
 forumTopicId: 302086
 ---
@@ -57,7 +56,7 @@ tests:
 
 ```js
 function euler417() {
-  // Good luck!
+
   return true;
 }
 

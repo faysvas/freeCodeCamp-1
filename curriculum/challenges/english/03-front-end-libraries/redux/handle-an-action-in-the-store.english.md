@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d4036150
 title: Handle an Action in the Store
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301444
 ---
@@ -39,17 +38,17 @@ tests:
 ## Challenge Seed
 <section id='challengeSeed'>
 
-<div id='jsx-seed'>
+<div id='js-seed'>
 
-```jsx
+```js
 const defaultState = {
   login: false
 };
 
 const reducer = (state = defaultState, action) => {
-  // change code below this line
+  // Change code below this line
 
-  // change code above this line
+  // Change code above this line
 };
 
 const store = Redux.createStore(reducer);

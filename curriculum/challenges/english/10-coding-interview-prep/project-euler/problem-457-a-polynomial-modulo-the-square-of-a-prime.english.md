@@ -1,7 +1,6 @@
 ---
 id: 5900f5361000cf542c510048
 challengeType: 5
-isHidden: false
 title: 'Problem 457: A polynomial modulo the square of a prime'
 forumTopicId: 302131
 ---
@@ -43,7 +42,7 @@ tests:
 
 ```js
 function euler457() {
-  // Good luck!
+
   return true;
 }
 

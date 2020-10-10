@@ -2,7 +2,6 @@
 title: Comma quibbling
 id: 596e414344c3b2872167f0fe
 challengeType: 5
-isHidden: false
 forumTopicId: 302234
 ---
 
@@ -59,7 +58,7 @@ tests:
 
 ```js
 function quibble(words) {
-  // Good luck!
+
   return true;
 }
 ```

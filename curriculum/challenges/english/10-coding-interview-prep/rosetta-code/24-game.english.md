@@ -2,7 +2,6 @@
 title: 24 game
 id: 5951e88f64ebf159166a1176
 challengeType: 5
-isHidden: false
 forumTopicId: 302218
 ---
 
@@ -59,7 +58,7 @@ tests:
 
 ```js
 function solve24 (numStr) {
-  // Good luck!
+
   return true;
 }
 ```
@@ -133,8 +132,6 @@ function replaceChar(origString, replaceChar, index) {
 
 
 ```js
-// noprotect
-
 function solve24(numStr) {
   const digitsArr = numStr.split('');
   const answers = [];

@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d4036149
 title: Extract Local State into Redux
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301428
 ---
@@ -155,7 +154,7 @@ class AppWrapper extends React.Component {
 ### After Test
 <div id='jsx-teardown'>
 
-```js
+```jsx
 ReactDOM.render(<AppWrapper />, document.getElementById('root'))
 ```
 
@@ -167,7 +166,7 @@ ReactDOM.render(<AppWrapper />, document.getElementById('root'))
 <section id='solution'>
 
 
-```js
+```jsx
 // Redux:
 const ADD = 'ADD';
 

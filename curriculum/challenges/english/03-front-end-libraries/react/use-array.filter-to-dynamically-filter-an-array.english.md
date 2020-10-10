@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d403618c
 title: Use Array.filter() to Dynamically Filter an Array
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301416
 ---
@@ -140,8 +139,8 @@ class MyComponent extends React.Component {
     };
   }
   render() {
-    const usersOnline = null; // change code here
-    const renderOnline = null; // change code here
+    const usersOnline = null; // Change this line
+    const renderOnline = null; // Change this line
     return (
       <div>
         <h1>Current Online Users:</h1>
@@ -158,7 +157,7 @@ class MyComponent extends React.Component {
 
 <div id='jsx-teardown'>
 
-```js
+```jsx
 ReactDOM.render(<MyComponent />, document.getElementById('root'));
 ```
 
@@ -170,7 +169,7 @@ ReactDOM.render(<MyComponent />, document.getElementById('root'));
 
 <section id='solution'>
 
-```js
+```jsx
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);

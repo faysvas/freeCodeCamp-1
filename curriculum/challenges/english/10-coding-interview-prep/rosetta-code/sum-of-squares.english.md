@@ -2,7 +2,6 @@
 id: 5a23c84252665b21eecc8042
 title: Sum of squares
 challengeType: 5
-isHidden: false
 forumTopicId: 302334
 ---
 
@@ -52,7 +51,7 @@ tests:
 
 ```js
 function sumsq(array) {
-  // Good luck!
+
 }
 ```
 

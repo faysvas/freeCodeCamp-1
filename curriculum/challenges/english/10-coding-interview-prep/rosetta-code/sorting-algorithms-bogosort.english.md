@@ -2,7 +2,6 @@
 id: 5a23c84252665b21eecc8002
 title: Sorting algorithms/Bogosort
 challengeType: 5
-isHidden: false
 forumTopicId: 302311
 ---
 
@@ -59,7 +58,7 @@ tests:
 
 ```js
 function bogosort(v) {
-  // Good luck!
+
 }
 ```
 

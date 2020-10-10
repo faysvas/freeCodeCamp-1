@@ -2,7 +2,6 @@
 id: 5a90374338fddaf9a66b5d3a
 title: Align an Item Horizontally using justify-self
 challengeType: 0
-isHidden: false
 videoUrl: 'https://scrimba.com/p/pByETK/cJbpKHq'
 forumTopicId: 301122
 ---
@@ -84,8 +83,8 @@ tests:
 <section id='solution'>
 
 
-```js
-var code = ".item2 {justify-self: center;}"
+```html
+<style>.item2 {justify-self: center;}</style>
 ```
 
 </section>

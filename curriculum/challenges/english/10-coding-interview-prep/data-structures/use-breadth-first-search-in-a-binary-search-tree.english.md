@@ -2,7 +2,6 @@
 id: 587d8258367417b2b2512c7f
 title: Use Breadth First Search in a Binary Search Tree
 challengeType: 1
-isHidden: false
 forumTopicId: 301718
 ---
 
@@ -54,8 +53,9 @@ function Node(value) {
 }
 function BinarySearchTree() {
   this.root = null;
-  // change code below this line
-  // change code above this line
+  // Only change code below this line
+  
+  // Only change code above this line
 }
 ```
 
@@ -115,7 +115,7 @@ function Node(value) {
 }
 function BinarySearchTree() {
   this.root = null;
-  // change code below this line
+  // Only change code below this line
   this.levelOrder = (root = this.root) => {
     if(!root) return null;
     let queue = [root];
@@ -141,7 +141,7 @@ function BinarySearchTree() {
     }
     return results;
   }
-  // change code above this line
+  // Only change code above this line
 }
 ```
 

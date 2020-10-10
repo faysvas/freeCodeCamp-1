@@ -2,7 +2,6 @@
 id: 587d8251367417b2b2512c64
 title: Search within a Linked List
 challengeType: 1
-isHidden: false
 forumTopicId: 301715
 ---
 
@@ -56,7 +55,7 @@ function LinkedList() {
   var length = 0;
   var head = null;
 
-  var Node = function(element){ // {1}
+  var Node = function(element){
     this.element = element;
     this.next = null;
   };
@@ -121,7 +120,7 @@ function LinkedList() {
   var length = 0;
   var head = null;
 
-  var Node = function(element){ // {1}
+  var Node = function(element){
     this.element = element;
     this.next = null;
   };

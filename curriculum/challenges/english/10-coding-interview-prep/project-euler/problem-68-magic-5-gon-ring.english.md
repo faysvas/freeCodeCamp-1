@@ -1,7 +1,6 @@
 ---
 id: 5900f3b01000cf542c50fec3
 challengeType: 5
-isHidden: false
 title: 'Problem 68: Magic 5-gon ring'
 forumTopicId: 302180
 ---
@@ -66,7 +65,7 @@ tests:
 
 ```js
 function magic5GonRing() {
-  // Good luck!
+
   return true;
 }
 

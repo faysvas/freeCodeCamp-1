@@ -1,7 +1,6 @@
 ---
 id: 5900f45d1000cf542c50ff6f
 challengeType: 5
-isHidden: false
 title: 'Problem 240: Top Dice'
 forumTopicId: 301887
 ---
@@ -46,7 +45,7 @@ tests:
 
 ```js
 function euler240() {
-  // Good luck!
+
   return true;
 }
 

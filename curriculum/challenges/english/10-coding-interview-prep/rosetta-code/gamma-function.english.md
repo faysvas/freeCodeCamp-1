@@ -2,7 +2,6 @@
 title: Gamma function
 id: 5a23c84252665b21eecc7e76
 challengeType: 5
-isHidden: false
 forumTopicId: 302271
 ---
 
@@ -49,7 +48,7 @@ tests:
 
 ```js
 function gamma(x) {
-  // Good luck!
+
 }
 ```
 

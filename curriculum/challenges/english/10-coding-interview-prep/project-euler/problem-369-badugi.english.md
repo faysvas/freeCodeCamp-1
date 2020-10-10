@@ -1,7 +1,6 @@
 ---
 id: 5900f4de1000cf542c50fff0
 challengeType: 5
-isHidden: false
 title: 'Problem 369: Badugi'
 forumTopicId: 302030
 ---
@@ -39,7 +38,7 @@ tests:
 
 ```js
 function euler369() {
-  // Good luck!
+
   return true;
 }
 

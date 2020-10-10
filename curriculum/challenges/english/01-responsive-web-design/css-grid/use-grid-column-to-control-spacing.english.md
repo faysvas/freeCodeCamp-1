@@ -2,7 +2,6 @@
 id: 5a90372638fddaf9a66b5d38
 title: Use grid-column to Control Spacing
 challengeType: 0
-isHidden: false
 videoUrl: 'https://scrimba.com/p/pByETK/cnzkDSr'
 forumTopicId: 301136
 ---
@@ -34,7 +33,7 @@ Make the item with the class <code>item5</code> consume the last two columns of 
 ```yml
 tests:
   - text: <code>item5</code> class should have a <code>grid-column</code> property.
-    testString: assert($('style').text().replace(/\s/g, '').match(/\.item5{.*grid-column:.*}/g));
+    testString: assert(__helpers.removeWhiteSpace($('style').text()).match(/\.item5{.*grid-column:.*}/g));
   - text: <code>item5</code> class should have a <code>grid-column</code> property which results in it consuming the last two columns of the grid.
     testString: "
       const colStart = getComputedStyle($('.item5')[0]).gridColumnStart;

@@ -1,7 +1,6 @@
 ---
 id: 5900f5411000cf542c510053
 challengeType: 5
-isHidden: false
 title: 'Problem 469: Empty chairs'
 forumTopicId: 302144
 ---
@@ -45,7 +44,7 @@ tests:
 
 ```js
 function euler469() {
-  // Good luck!
+
   return true;
 }
 

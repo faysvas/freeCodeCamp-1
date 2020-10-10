@@ -1,7 +1,6 @@
 ---
 id: 5900f4f91000cf542c51000c
 challengeType: 5
-isHidden: false
 title: 'Problem 397: Triangle on parabola'
 forumTopicId: 302062
 ---
@@ -42,7 +41,7 @@ tests:
 
 ```js
 function euler397() {
-  // Good luck!
+
   return true;
 }
 

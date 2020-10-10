@@ -1,7 +1,6 @@
 ---
 id: 5900f5221000cf542c510033
 challengeType: 5
-isHidden: false
 title: 'Problem 436: Unfair wager'
 forumTopicId: 302107
 ---
@@ -49,7 +48,7 @@ tests:
 
 ```js
 function euler436() {
-  // Good luck!
+
   return true;
 }
 

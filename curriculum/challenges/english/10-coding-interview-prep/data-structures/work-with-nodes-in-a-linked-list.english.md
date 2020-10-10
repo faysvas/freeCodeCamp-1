@@ -2,7 +2,6 @@
 id: 587d8251367417b2b2512c61
 title: Work with Nodes in a Linked List
 challengeType: 1
-isHidden: false
 forumTopicId: 301721
 ---
 
@@ -45,10 +44,9 @@ var Kitten = new Node('Kitten');
 var Puppy = new Node('Puppy');
 
 Kitten.next = Puppy;
-// only add code below this line
+// Only change code below this line
 
-// test your code
-console.log(Kitten.next);
+
 ```
 
 </div>

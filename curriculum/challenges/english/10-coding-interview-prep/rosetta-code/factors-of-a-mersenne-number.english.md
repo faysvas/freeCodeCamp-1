@@ -2,7 +2,6 @@
 title: Factors of a Mersenne number
 id: 598eea87e5cf4b116c3ff81a
 challengeType: 5
-isHidden: false
 forumTopicId: 302264
 ---
 
@@ -69,7 +68,7 @@ tests:
 
 ```js
 function check_mersenne(p) {
-  // Good luck!
+
 }
 ```
 

@@ -1,7 +1,6 @@
 ---
 id: 5900f4f81000cf542c51000b
 challengeType: 5
-isHidden: false
 title: 'Problem 396: Weak Goodstein sequence'
 forumTopicId: 302061
 ---
@@ -59,7 +58,7 @@ tests:
 
 ```js
 function euler396() {
-  // Good luck!
+
   return true;
 }
 

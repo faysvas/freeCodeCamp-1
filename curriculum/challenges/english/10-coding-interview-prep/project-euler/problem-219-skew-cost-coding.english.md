@@ -1,7 +1,6 @@
 ---
 id: 5900f4481000cf542c50ff5a
 challengeType: 5
-isHidden: false
 title: 'Problem 219: Skew-cost coding'
 forumTopicId: 301861
 ---
@@ -47,7 +46,7 @@ tests:
 
 ```js
 function euler219() {
-  // Good luck!
+
   return true;
 }
 

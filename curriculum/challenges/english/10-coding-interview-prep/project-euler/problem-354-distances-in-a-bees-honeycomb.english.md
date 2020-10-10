@@ -1,7 +1,6 @@
 ---
 id: 5900f4cf1000cf542c50ffe1
 challengeType: 5
-isHidden: false
 title: 'Problem 354: Distances in a bee''s honeycomb'
 forumTopicId: 302014
 ---
@@ -46,7 +45,7 @@ tests:
 
 ```js
 function euler354() {
-  // Good luck!
+
   return true;
 }
 

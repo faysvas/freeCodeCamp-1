@@ -1,7 +1,6 @@
 ---
 id: 5900f4131000cf542c50ff25
 challengeType: 5
-isHidden: false
 title: 'Problem 166: Criss Cross'
 forumTopicId: 301800
 ---
@@ -47,7 +46,7 @@ tests:
 
 ```js
 function euler166() {
-  // Good luck!
+
   return true;
 }
 

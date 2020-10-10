@@ -1,7 +1,6 @@
 ---
 id: 5900f4c01000cf542c50ffd2
 challengeType: 5
-isHidden: false
 title: 'Problem 339: Peredur fab Efrawg'
 forumTopicId: 301997
 ---
@@ -44,7 +43,7 @@ tests:
 
 ```js
 function euler339() {
-  // Good luck!
+
   return true;
 }
 

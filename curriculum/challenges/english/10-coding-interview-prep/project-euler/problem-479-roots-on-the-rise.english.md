@@ -1,7 +1,6 @@
 ---
 id: 5900f54b1000cf542c51005d
 challengeType: 5
-isHidden: false
 title: 'Problem 479: Roots on the Rise'
 forumTopicId: 302156
 ---
@@ -43,7 +42,7 @@ tests:
 
 ```js
 function euler479() {
-  // Good luck!
+
   return true;
 }
 

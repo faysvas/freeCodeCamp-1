@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d403615b
 title: Copy an Object with Object.assign
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301437
 ---
@@ -40,9 +39,9 @@ tests:
 ## Challenge Seed
 <section id='challengeSeed'>
 
-<div id='jsx-seed'>
+<div id='js-seed'>
 
-```jsx
+```js
 const defaultState = {
   user: 'CamperBot',
   status: 'offline',
@@ -53,7 +52,7 @@ const defaultState = {
 const immutableReducer = (state = defaultState, action) => {
   switch(action.type) {
     case 'ONLINE':
-      // don't mutate state here or the tests will fail
+      // Don't mutate state here or the tests will fail
       return
     default:
       return state;

@@ -1,7 +1,6 @@
 ---
 id: 5900f4771000cf542c50ff89
 challengeType: 5
-isHidden: false
 title: 'Problem 266: Pseudo Square Root'
 forumTopicId: 301915
 ---
@@ -42,7 +41,7 @@ tests:
 
 ```js
 function euler266() {
-  // Good luck!
+
   return true;
 }
 

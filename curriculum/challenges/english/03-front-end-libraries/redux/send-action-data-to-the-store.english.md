@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d4036155
 title: Send Action Data to the Store
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301448
 ---
@@ -36,25 +35,25 @@ tests:
 ## Challenge Seed
 <section id='challengeSeed'>
 
-<div id='jsx-seed'>
+<div id='js-seed'>
 
-```jsx
+```js
 const ADD_NOTE = 'ADD_NOTE';
 
 const notesReducer = (state = 'Initial State', action) => {
   switch(action.type) {
-    // change code below this line
+    // Change code below this line
 
-    // change code above this line
+    // Change code above this line
     default:
       return state;
   }
 };
 
 const addNoteText = (note) => {
-  // change code below this line
+  // Change code below this line
 
-  // change code above this line
+  // Change code above this line
 };
 
 const store = Redux.createStore(notesReducer);
@@ -79,22 +78,22 @@ const ADD_NOTE = 'ADD_NOTE';
 
 const notesReducer = (state = 'Initial State', action) => {
   switch(action.type) {
-    // change code below this line
+    // Change code below this line
     case ADD_NOTE:
       return action.text;
-    // change code above this line
+    // Change code above this line
     default:
       return state;
   }
 };
 
 const addNoteText = (note) => {
-  // change code below this line
+  // Change code below this line
   return {
     type: ADD_NOTE,
     text: note
   }
-  // change code above this line
+  // Change code above this line
 };
 
 const store = Redux.createStore(notesReducer);

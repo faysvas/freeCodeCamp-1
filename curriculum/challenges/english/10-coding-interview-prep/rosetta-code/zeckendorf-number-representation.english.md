@@ -2,7 +2,6 @@
 title: Zeckendorf number representation
 id: 594810f028c0303b75339ad6
 challengeType: 5
-isHidden: false
 forumTopicId: 302346
 ---
 
@@ -38,7 +37,7 @@ tests:
 
 ```js
 function zeckendorf(n) {
-  // good luck!
+
 }
 ```
 

@@ -1,7 +1,6 @@
 ---
 id: 5900f3831000cf542c50fe96
 challengeType: 5
-isHidden: false
 title: 'Problem 23: Non-abundant sums'
 forumTopicId: 301873
 ---
@@ -51,7 +50,7 @@ tests:
 
 ```js
 function sumOfNonAbundantNumbers(n) {
-  // Good luck!
+
   return n;
 }
 

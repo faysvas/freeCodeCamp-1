@@ -1,7 +1,6 @@
 ---
 id: 5900f4e51000cf542c50fff7
 challengeType: 5
-isHidden: false
 title: 'Problem 376: Nontransitive sets of dice'
 forumTopicId: 302038
 ---
@@ -71,7 +70,7 @@ tests:
 
 ```js
 function euler376() {
-  // Good luck!
+
   return true;
 }
 

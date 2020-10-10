@@ -2,7 +2,6 @@
 id: 587d8254367417b2b2512c71
 title: Remove items from a set in ES6
 challengeType: 1
-isHidden: false
 forumTopicId: 301713
 ---
 
@@ -44,10 +43,7 @@ tests:
 
 ```js
 function checkSet(){
-   var set = //Create a set with values 1, 2, 3, 4, & 5
-   //Remove the value 2
-   //Remove the value 5
-   //Return the set
+   var set = null;
    return set;
 }
 ```

@@ -14,11 +14,17 @@
   "version": "0.0.0-next.4",
   "main": "lib.js",
   "scripts": {
+    "create-empty-steps": "cross-env CALLING_DIR=$INIT_CWD node ../tools/challenge-helper-scripts/create-empty-steps",
+    "create-next-step": "cross-env CALLING_DIR=$INIT_CWD node ../tools/challenge-helper-scripts/create-next-step",
+    "create-step-between": "cross-env CALLING_DIR=$INIT_CWD node ../tools/challenge-helper-scripts/create-step-between",
+    "reorder-steps": "cross-env CALLING_DIR=$INIT_CWD node ../tools/challenge-helper-scripts/reorder-steps",
     "develop": "gulp",
     "lint": "gulp lint",
     "semantic-release": "semantic-release",
     "pretest": "cd ../client && npm run build:workers",
-    "test": "mocha --delay --reporter progress --bail"
+    "pretest:full-output": "npm run pretest",
+    "test": "mocha --delay --reporter progress --bail",
+    "test:full-output": "cross-env FULL_OUTPUT=true mocha --delay --reporter progress"
   },
   "dependencies": {
     "invariant": "^2.2.4"
@@ -44,6 +50,7 @@
     "babel-preset-stage-3": "^6.24.1",
     "babel-standalone": "^6.26.0",
     "chai": "4.2.0",
+    "cross-env": "^7.0.2",
     "fs-extra": "^6.0.1",
     "gulp": "^4.0.2",
     "joi": "^13.3.0",

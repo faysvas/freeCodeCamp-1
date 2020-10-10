@@ -2,7 +2,6 @@
 title: Count occurrences of a substring
 id: 596fda99c69f779975a1b67d
 challengeType: 5
-isHidden: false
 forumTopicId: 302237
 ---
 
@@ -49,7 +48,7 @@ tests:
 
 ```js
 function countSubstring(str, subStr) {
-  // Good luck!
+
   return true;
 }
 ```

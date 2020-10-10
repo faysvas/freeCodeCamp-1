@@ -1,7 +1,6 @@
 ---
 id: 5900f53e1000cf542c510051
 challengeType: 5
-isHidden: false
 title: 'Problem 466: Distinct terms in a multiplication table'
 forumTopicId: 302141
 ---
@@ -50,7 +49,7 @@ tests:
 
 ```js
 function euler466() {
-  // Good luck!
+
   return true;
 }
 

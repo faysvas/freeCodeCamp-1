@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d4036170
 title: Create a Stateful Component
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301391
 ---
@@ -54,8 +53,9 @@ tests:
 class StatefulComponent extends React.Component {
   constructor(props) {
     super(props);
-    // initialize state here
+    // Only change code below this line
 
+    // Only change code above this line
   }
   render() {
     return (
@@ -73,7 +73,7 @@ class StatefulComponent extends React.Component {
 ### After Test
 <div id='jsx-teardown'>
 
-```js
+```jsx
 ReactDOM.render(<StatefulComponent />, document.getElementById('root'))
 ```
 
@@ -85,7 +85,7 @@ ReactDOM.render(<StatefulComponent />, document.getElementById('root'))
 <section id='solution'>
 
 
-```js
+```jsx
 class StatefulComponent extends React.Component {
   constructor(props) {
     super(props);

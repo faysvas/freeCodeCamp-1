@@ -2,7 +2,6 @@
 title: Date manipulation
 id: 5966c21cf732a95f1b67dd28
 challengeType: 5
-isHidden: false
 forumTopicId: 302244
 ---
 
@@ -49,7 +48,7 @@ tests:
 
 ```js
 function add12Hours(dateString) {
-  // Good luck!
+
   return true;
 }
 ```

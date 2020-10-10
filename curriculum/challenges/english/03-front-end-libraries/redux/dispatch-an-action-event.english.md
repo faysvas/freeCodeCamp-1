@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d403614f
 title: Dispatch an Action Event
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301442
 ---
@@ -43,9 +42,9 @@ tests:
 ## Challenge Seed
 <section id='challengeSeed'>
 
-<div id='jsx-seed'>
+<div id='js-seed'>
 
-```jsx
+```js
 const store = Redux.createStore(
   (state = {login: false}) => state
 );
@@ -81,7 +80,6 @@ const loginAction = () => {
   }
 };
 
-// Dispatch the action here:
 store.dispatch(loginAction());
 ```
 

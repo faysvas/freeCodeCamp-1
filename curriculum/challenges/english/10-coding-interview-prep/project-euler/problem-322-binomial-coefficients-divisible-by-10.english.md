@@ -1,7 +1,6 @@
 ---
 id: 5900f4af1000cf542c50ffc1
 challengeType: 5
-isHidden: false
 title: 'Problem 322: Binomial coefficients divisible by 10'
 forumTopicId: 301979
 ---
@@ -39,7 +38,7 @@ tests:
 
 ```js
 function euler322() {
-  // Good luck!
+
   return true;
 }
 

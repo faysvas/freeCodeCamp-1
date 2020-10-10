@@ -1,7 +1,6 @@
 ---
 id: 5900f3fa1000cf542c50ff0d
 challengeType: 5
-isHidden: false
 title: 'Problem 142: Perfect Square Collection'
 forumTopicId: 301771
 ---
@@ -35,7 +34,7 @@ tests:
 
 ```js
 function euler142() {
-  // Good luck!
+
   return true;
 }
 

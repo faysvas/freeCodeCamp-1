@@ -2,7 +2,6 @@
 title: Element-wise operations
 id: 599c333915e0ea32d04d4bec
 challengeType: 5
-isHidden: false
 forumTopicId: 302252
 ---
 
@@ -58,7 +57,7 @@ tests:
 
 ```js
 function operation(op, arr1, arr2) {
-  // Good luck!
+
 }
 ```
 

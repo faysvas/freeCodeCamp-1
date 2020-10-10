@@ -2,7 +2,6 @@
 id: 564944c91be2204b269d51e3
 title: Change Text Inside an Element Using jQuery
 challengeType: 6
-isHidden: false
 forumTopicId: 16773
 ---
 
@@ -56,7 +55,7 @@ tests:
   });
 </script>
 
-<!-- Only change code above this line. -->
+<!-- Only change code above this line -->
 
 <div class="container-fluid">
   <h3 class="text-primary text-center">jQuery Playground</h3>

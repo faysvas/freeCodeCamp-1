@@ -2,7 +2,6 @@
 id: bad87fee1348bd9aed208826
 title: Target the Children of an Element Using jQuery
 challengeType: 6
-isHidden: false
 forumTopicId: 18320
 ---
 
@@ -53,7 +52,7 @@ tests:
   });
 </script>
 
-<!-- Only change code above this line. -->
+<!-- Only change code above this line -->
 
 <div class="container-fluid">
   <h3 class="text-primary text-center">jQuery Playground</h3>
@@ -100,7 +99,7 @@ tests:
   });
 </script>
 
-<!-- Only change code above this line. -->
+<!-- Only change code above this line -->
 
 <div class="container-fluid">
   <h3 class="text-primary text-center">jQuery Playground</h3>

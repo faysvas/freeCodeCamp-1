@@ -1,7 +1,6 @@
 ---
 id: 5900f4ff1000cf542c510011
 challengeType: 5
-isHidden: false
 title: 'Problem 402: Integer-valued polynomials'
 forumTopicId: 302070
 ---
@@ -52,7 +51,7 @@ tests:
 
 ```js
 function euler402() {
-  // Good luck!
+
   return true;
 }
 

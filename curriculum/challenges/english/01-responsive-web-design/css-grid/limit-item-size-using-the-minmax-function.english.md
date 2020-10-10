@@ -2,7 +2,6 @@
 id: 5a94fe4469fb03452672e460
 title: Limit Item Size Using the minmax Function
 challengeType: 0
-isHidden: false
 videoUrl: 'https://scrimba.com/p/pByETK/cD97RTv'
 forumTopicId: 301131
 ---
@@ -83,8 +82,8 @@ tests:
 <section id='solution'>
 
 
-```js
-var code = ".container {grid-template-columns: repeat(3, minmax(90px, 1fr));}"
+```html
+<style>.container {grid-template-columns: repeat(3, minmax(90px, 1fr));}</style>
 ```
 
 </section>

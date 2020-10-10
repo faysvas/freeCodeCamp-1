@@ -1,7 +1,6 @@
 ---
 id: 5900f4791000cf542c50ff8c
 challengeType: 5
-isHidden: false
 title: 'Problem 269: Polynomials with at least one integer root'
 forumTopicId: 301918
 ---
@@ -45,7 +44,7 @@ tests:
 
 ```js
 function euler269() {
-  // Good luck!
+
   return true;
 }
 

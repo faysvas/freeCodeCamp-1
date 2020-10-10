@@ -1,7 +1,6 @@
 ---
 id: 5900f4111000cf542c50ff24
 challengeType: 5
-isHidden: false
 title: 'Problem 165: Intersections'
 forumTopicId: 301799
 ---
@@ -52,7 +51,7 @@ tests:
 
 ```js
 function euler165() {
-  // Good luck!
+
   return true;
 }
 

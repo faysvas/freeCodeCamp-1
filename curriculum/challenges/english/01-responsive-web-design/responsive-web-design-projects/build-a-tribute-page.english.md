@@ -3,7 +3,6 @@ id: bd7158d8c442eddfaeb5bd18
 title: Build a Tribute Page
 isRequired: true
 challengeType: 3
-isHidden: false
 forumTopicId: 301147
 ---
 
@@ -48,7 +47,7 @@ tests: []
 ## Solution
 <section id='solution'>
 
-```js
+```html
 // solution required
 ```
 

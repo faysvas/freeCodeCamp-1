@@ -1,7 +1,6 @@
 ---
 id: 5900f4051000cf542c50ff18
 challengeType: 5
-isHidden: false
 title: 'Problem 153: Investigating Gaussian Integers'
 forumTopicId: 301784
 ---
@@ -79,7 +78,7 @@ tests:
 
 ```js
 function euler153() {
-  // Good luck!
+
   return true;
 }
 

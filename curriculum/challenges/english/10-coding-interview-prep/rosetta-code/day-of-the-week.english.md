@@ -2,7 +2,6 @@
 title: Day of the week
 id: 5966f99c45e8976909a85575
 challengeType: 5
-isHidden: false
 forumTopicId: 302245
 ---
 
@@ -41,7 +40,7 @@ tests:
 
 ```js
 function findXmasSunday(start, end) {
-  // Good luck!
+
   return true;
 }
 ```

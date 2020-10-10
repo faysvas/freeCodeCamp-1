@@ -2,7 +2,6 @@
 title: Compare a list of strings
 id: 596e457071c35c882915b3e4
 challengeType: 5
-isHidden: false
 forumTopicId: 302235
 ---
 
@@ -61,12 +60,12 @@ tests:
 
 ```js
 function allEqual(arr) {
-  // Good luck!
+
   return true;
 }
 
 function azSorted(arr) {
-  // Good luck!
+
   return true;
 }
 ```

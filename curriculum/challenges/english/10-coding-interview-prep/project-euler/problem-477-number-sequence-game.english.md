@@ -1,7 +1,6 @@
 ---
 id: 5900f54a1000cf542c51005c
 challengeType: 5
-isHidden: false
 title: 'Problem 477: Number Sequence Game'
 forumTopicId: 302154
 ---
@@ -49,7 +48,7 @@ tests:
 
 ```js
 function euler477() {
-  // Good luck!
+
   return true;
 }
 

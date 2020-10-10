@@ -1,7 +1,6 @@
 ---
 id: 5900f3ff1000cf542c50ff12
 challengeType: 5
-isHidden: false
 title: 'Problem 147: Rectangles in cross-hatched grids'
 forumTopicId: 301776
 ---
@@ -46,7 +45,7 @@ tests:
 
 ```js
 function euler147() {
-  // Good luck!
+
   return true;
 }
 

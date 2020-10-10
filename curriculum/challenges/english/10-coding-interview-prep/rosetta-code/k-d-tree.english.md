@@ -2,7 +2,6 @@
 id: 5a23c84252665b21eecc7ecb
 title: K-d tree
 challengeType: 5
-isHidden: false
 forumTopicId: 302295
 ---
 
@@ -59,7 +58,7 @@ tests:
 
 ```js
 function kdNN(fpoints, fpoint) {
-  // Good luck!
+
 }
 ```
 

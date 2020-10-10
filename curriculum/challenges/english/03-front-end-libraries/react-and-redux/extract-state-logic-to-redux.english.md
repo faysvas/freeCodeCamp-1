@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d4036143
 title: Extract State Logic to Redux
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301429
 ---
@@ -46,7 +45,7 @@ tests:
 <div id='jsx-seed'>
 
 ```jsx
-// define ADD, addMessage(), messageReducer(), and store here:
+// Define ADD, addMessage(), messageReducer(), and store here:
 
 ```
 
@@ -60,7 +59,7 @@ tests:
 <section id='solution'>
 
 
-```js
+```jsx
 const ADD = 'ADD';
 
 const addMessage = (message) => {

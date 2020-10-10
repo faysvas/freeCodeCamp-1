@@ -1,7 +1,6 @@
 ---
 id: 5900f5041000cf542c510016
 challengeType: 5
-isHidden: false
 title: 'Problem 407: Idempotents'
 forumTopicId: 302075
 ---
@@ -43,7 +42,7 @@ tests:
 
 ```js
 function euler407() {
-  // Good luck!
+
   return true;
 }
 

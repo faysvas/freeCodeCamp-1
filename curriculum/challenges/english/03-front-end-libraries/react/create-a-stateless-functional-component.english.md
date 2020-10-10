@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d4036162
 title: Create a Stateless Functional Component
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301392
 ---
@@ -54,11 +53,11 @@ tests:
 
 ```jsx
 const MyComponent = function() {
-  // change code below this line
+  // Change code below this line
 
 
 
-  // change code above this line
+  // Change code above this line
 }
 ```
 
@@ -68,7 +67,7 @@ const MyComponent = function() {
 ### After Test
 <div id='jsx-teardown'>
 
-```js
+```jsx
 ReactDOM.render(<MyComponent />, document.getElementById('root'))
 ```
 
@@ -80,15 +79,15 @@ ReactDOM.render(<MyComponent />, document.getElementById('root'))
 <section id='solution'>
 
 
-```js
+```jsx
 const MyComponent = function() {
-  // change code below this line
+  // Change code below this line
   return (
     <div>
       Demo Solution
     </div>
   );
-  // change code above this line
+  // Change code above this line
 }
 ```
 

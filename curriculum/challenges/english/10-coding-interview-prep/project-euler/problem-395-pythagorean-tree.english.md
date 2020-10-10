@@ -1,7 +1,6 @@
 ---
 id: 5900f4f71000cf542c51000a
 challengeType: 5
-isHidden: false
 title: 'Problem 395: Pythagorean tree'
 forumTopicId: 302060
 ---
@@ -53,7 +52,7 @@ tests:
 
 ```js
 function euler395() {
-  // Good luck!
+
   return true;
 }
 

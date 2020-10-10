@@ -2,7 +2,6 @@
 id: 5a23c84252665b21eecc8046
 title: Symmetric difference
 challengeType: 5
-isHidden: false
 forumTopicId: 16086
 ---
 
@@ -56,7 +55,7 @@ tests:
 
 ```js
 function symmetricDifference(A, B) {
-  // Good luck!
+
 }
 ```
 

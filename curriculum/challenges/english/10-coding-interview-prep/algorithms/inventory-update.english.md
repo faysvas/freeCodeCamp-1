@@ -2,7 +2,6 @@
 id: a56138aff60341a09ed6c480
 title: Inventory Update
 challengeType: 5
-isHidden: false
 forumTopicId: 16019
 ---
 
@@ -45,7 +44,6 @@ tests:
 
 ```js
 function updateInventory(arr1, arr2) {
-    // All inventory must be accounted for or you're fired!
     return arr1;
 }
 

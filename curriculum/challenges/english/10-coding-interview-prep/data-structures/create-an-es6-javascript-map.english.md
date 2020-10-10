@@ -2,7 +2,6 @@
 id: 587d825b367417b2b2512c8d
 title: Create an ES6 JavaScript Map
 challengeType: 1
-isHidden: false
 forumTopicId: 301635
 ---
 
@@ -44,7 +43,7 @@ tests:
 <div id='js-seed'>
 
 ```js
-// change code below this line
+
 ```
 
 </div>

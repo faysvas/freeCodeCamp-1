@@ -2,7 +2,6 @@
 title: Fibonacci word
 id: 5992e222d397f00d21122931
 challengeType: 5
-isHidden: false
 forumTopicId: 302269
 ---
 
@@ -45,7 +44,7 @@ tests:
 
 ```js
 function fibWord(n) {
-  // Good luck!
+
 }
 ```
 

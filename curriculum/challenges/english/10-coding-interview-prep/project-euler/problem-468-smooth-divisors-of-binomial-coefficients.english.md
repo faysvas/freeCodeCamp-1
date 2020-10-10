@@ -1,7 +1,6 @@
 ---
 id: 5900f5411000cf542c510054
 challengeType: 5
-isHidden: false
 title: 'Problem 468: Smooth divisors of binomial coefficients'
 forumTopicId: 302143
 ---
@@ -49,7 +48,7 @@ tests:
 
 ```js
 function euler468() {
-  // Good luck!
+
   return true;
 }
 

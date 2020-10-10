@@ -2,7 +2,6 @@
 id: 5a24c314108439a4d403614c
 title: Get State from the Redux Store
 challengeType: 6
-isHidden: false
 isRequired: false
 forumTopicId: 301443
 ---
@@ -34,14 +33,14 @@ tests:
 ## Challenge Seed
 <section id='challengeSeed'>
 
-<div id='jsx-seed'>
+<div id='js-seed'>
 
-```jsx
+```js
 const store = Redux.createStore(
   (state = 5) => state
 );
 
-// change code below this line
+// Change code below this line
 
 ```
 
@@ -60,7 +59,7 @@ const store = Redux.createStore(
   (state = 5) => state
 );
 
-// change code below this line
+// Change code below this line
 const currentState = store.getState();
 ```
 

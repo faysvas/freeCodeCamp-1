@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244ed
 title: Appending Variables to Strings
 challengeType: 1
-isHidden: false
 videoUrl: 'https://scrimba.com/c/cbQmZfa'
 forumTopicId: 16656
 ---
@@ -24,7 +23,7 @@ ourStr += anAdjective;
 
 ## Instructions
 <section id='instructions'>
-Set <code>someAdjective</code> and append it to <code>myStr</code> using the <code>+=</code> operator.
+Set <code>someAdjective</code> to a string of at least 3 characters and append it to <code>myStr</code> using the <code>+=</code> operator.
 </section>
 
 ## Tests

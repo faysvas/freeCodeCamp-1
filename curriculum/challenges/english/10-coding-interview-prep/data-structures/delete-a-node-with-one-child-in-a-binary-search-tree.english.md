@@ -2,7 +2,6 @@
 id: 587d8258367417b2b2512c81
 title: Delete a Node with One Child in a Binary Search Tree
 challengeType: 1
-isHidden: false
 forumTopicId: 301638
 ---
 
@@ -62,7 +61,7 @@ function BinarySearchTree() {
     }
     var target;
     var parent = null;
-    // find the target value and its parent
+    // Find the target value and its parent
     (function findValue(node = this.root) {
       if (value == node.value) {
         target = node;
@@ -81,10 +80,10 @@ function BinarySearchTree() {
     if (target === null) {
       return null;
     }
-    // count the children of the target to delete
+    // Count the children of the target to delete
     var children =
       (target.left !== null ? 1 : 0) + (target.right !== null ? 1 : 0);
-    // case 1: target has no children
+    // Case 1: Target has no children
     if (children === 0) {
       if (target == this.root) {
         this.root = null;
@@ -96,7 +95,8 @@ function BinarySearchTree() {
         }
       }
     }
-    // case 2: target has one child, change code below this line
+    // Case 2: Target has one child
+    // Only change code below this line
   };
 }
 ```

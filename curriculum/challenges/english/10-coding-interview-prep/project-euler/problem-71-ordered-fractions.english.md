@@ -1,7 +1,6 @@
 ---
 id: 5900f3b31000cf542c50fec6
 challengeType: 5
-isHidden: false
 title: 'Problem 71: Ordered fractions'
 forumTopicId: 302184
 ---
@@ -47,7 +46,7 @@ tests:
 
 ```js
 function orderedFractions() {
-  // Good luck!
+
   return true;
 }
 

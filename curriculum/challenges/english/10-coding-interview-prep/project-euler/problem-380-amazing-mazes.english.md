@@ -1,7 +1,6 @@
 ---
 id: 5900f4e81000cf542c50fffb
 challengeType: 5
-isHidden: false
 title: 'Problem 380: Amazing Mazes!'
 forumTopicId: 302044
 ---
@@ -48,7 +47,7 @@ tests:
 
 ```js
 function euler380() {
-  // Good luck!
+
   return true;
 }
 

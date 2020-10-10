@@ -1,7 +1,6 @@
 ---
 id: 5900f46c1000cf542c50ff7e
 challengeType: 5
-isHidden: false
 title: 'Problem 256: Tatami-Free Rooms'
 forumTopicId: 301904
 ---
@@ -60,7 +59,7 @@ tests:
 
 ```js
 function euler256() {
-  // Good luck!
+
   return true;
 }
 

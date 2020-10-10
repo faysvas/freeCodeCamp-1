@@ -1,7 +1,6 @@
 ---
 id: 5900f3db1000cf542c50feee
 challengeType: 5
-isHidden: false
 title: 'Problem 111: Primes with runs'
 forumTopicId: 301736
 ---
@@ -87,7 +86,7 @@ tests:
 
 ```js
 function euler111() {
-  // Good luck!
+
   return true;
 }
 

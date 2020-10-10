@@ -2,7 +2,6 @@
 id: 5a23c84252665b21eecc802a
 title: Stream Merge
 challengeType: 5
-isHidden: false
 forumTopicId: 302326
 ---
 
@@ -52,7 +51,7 @@ tests:
 
 ```js
 function mergeLists(lists) {
-  // Good luck!
+
 }
 ```
 

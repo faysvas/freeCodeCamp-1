@@ -1,7 +1,6 @@
 ---
 id: 5900f4e61000cf542c50fff9
 challengeType: 5
-isHidden: false
 title: 'Problem 378: Triangle Triples'
 forumTopicId: 302040
 ---
@@ -53,7 +52,7 @@ tests:
 
 ```js
 function euler378() {
-  // Good luck!
+
   return true;
 }
 

@@ -1,7 +1,6 @@
 ---
 id: 5900f39c1000cf542c50feaf
 challengeType: 5
-isHidden: false
 title: 'Problem 48: Self powers'
 forumTopicId: 302157
 ---
@@ -47,7 +46,7 @@ tests:
 
 ```js
 function selfPowers(power, lastDigits) {
-  // Good luck!
+
   return true;
 }
 

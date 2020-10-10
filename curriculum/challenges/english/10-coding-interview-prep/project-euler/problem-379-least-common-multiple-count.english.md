@@ -1,7 +1,6 @@
 ---
 id: 5900f4e81000cf542c50fffa
 challengeType: 5
-isHidden: false
 title: 'Problem 379: Least common multiple count'
 forumTopicId: 302041
 ---
@@ -45,7 +44,7 @@ tests:
 
 ```js
 function euler379() {
-  // Good luck!
+
   return true;
 }
 

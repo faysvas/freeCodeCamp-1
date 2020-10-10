@@ -2,7 +2,6 @@
 id: bad87fee1348bd9aedf08826
 title: Use Clockwise Notation to Specify the Padding of an Element
 challengeType: 0
-isHidden: false
 videoUrl: 'https://scrimba.com/c/cB7mBS9'
 forumTopicId: 18346
 ---
@@ -33,7 +32,7 @@ tests:
   - text: Your <code>blue-box</code> class should give the left of elements <code>40px</code> of <code>padding</code>.
     testString: assert($(".blue-box").css("padding-left") === "40px");
   - text: You should use the clockwise notation to set the padding of <code>blue-box</code> class.
-    testString: const removeCssComments = str => str.replace(/\/\*[\s\S]+?\*\//g, '');assert(/\.blue-box\s*{[\s\S]*padding[\s]*:\s*\d+px\s+\d+px\s+\d+px\s+\d+px(;\s*[^}]+\s*}|;?\s*})/.test(removeCssComments($('style').text())));
+    testString: assert(/\.blue-box\s*{[\s\S]*padding[\s]*:\s*\d+px\s+\d+px\s+\d+px\s+\d+px(;\s*[^}]+\s*}|;?\s*})/.test(__helpers.removeCssComments($('style').text())));
 
 ```
 

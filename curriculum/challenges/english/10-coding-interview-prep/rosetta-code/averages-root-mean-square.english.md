@@ -2,7 +2,6 @@
 title: Averages/Root mean square
 id: 594da033de4190850b893874
 challengeType: 5
-isHidden: false
 forumTopicId: 302228
 ---
 
@@ -40,7 +39,7 @@ tests:
 
 ```js
 function rms(arr) {
-  // Good luck!
+
 }
 ```
 

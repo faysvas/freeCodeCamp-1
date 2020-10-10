@@ -2,7 +2,6 @@
 id: 5cfa550e84205a357704ccb6
 title: Use Destructuring Assignment to Extract Values from Objects
 challengeType: 1
-isHidden: false
 forumTopicId: 301216
 ---
 
@@ -42,11 +41,11 @@ Replace the two assignments with an equivalent destructuring assignment. It shou
 ```yml
 tests:
   - text: You should remove the ES5 assignment syntax.
-    testString: assert(!removeJSComments(code).match(/today\s*=\s*HIGH_TEMPERATURES\.(today|tomorrow)/g))
+    testString: assert(!__helpers.removeJSComments(code).match(/today\s*=\s*HIGH_TEMPERATURES\.(today|tomorrow)/g))
   - text: You should use destructuring to create the <code>today</code> variable.
-    testString: assert(removeJSComments(code).match(/(var|let|const)\s*{\s*(today[^}]*|[^,]*,\s*today)\s*}\s*=\s*HIGH_TEMPERATURES(;|\s+|\/\/)/g));
+    testString: assert(__helpers.removeJSComments(code).match(/(var|let|const)\s*{\s*(today[^}]*|[^,]*,\s*today)\s*}\s*=\s*HIGH_TEMPERATURES(;|\s+|\/\/)/g));
   - text: You should use destructuring to create the <code>tomorrow</code> variable.
-    testString: assert(removeJSComments(code).match(/(var|let|const)\s*{\s*(tomorrow[^}]*|[^,]*,\s*tomorrow)\s*}\s*=\s*HIGH_TEMPERATURES(;|\s+|\/\/)/g));
+    testString: assert(__helpers.removeJSComments(code).match(/(var|let|const)\s*{\s*(tomorrow[^}]*|[^,]*,\s*tomorrow)\s*}\s*=\s*HIGH_TEMPERATURES(;|\s+|\/\/)/g));
   - text: <code>today</code> should be equal to <code>77</code> and <code>tomorrow</code> should be equal to <code>80</code>.
     testString: assert(today === 77 && tomorrow === 80);
 
@@ -71,15 +70,6 @@ const today = HIGH_TEMPERATURES.today;
 const tomorrow = HIGH_TEMPERATURES.tomorrow;
 
 // Only change code above this line
-```
-
-</div>
-
-### After Test
-<div id='js-teardown'>
-
-```js
-const removeJSComments = str => str.replace(/\/\*[\s\S]*?\*\/|\/\/.*$/gm, '');
 ```
 
 </div>

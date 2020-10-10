@@ -1,7 +1,6 @@
 ---
 id: 5900f5021000cf542c510015
 challengeType: 5
-isHidden: false
 title: 'Problem 406: Guessing Game'
 forumTopicId: 302074
 ---
@@ -58,7 +57,7 @@ tests:
 
 ```js
 function euler406() {
-  // Good luck!
+
   return true;
 }
 
